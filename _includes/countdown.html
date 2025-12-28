@@ -1,0 +1,23 @@
+{% assign dates = include.dates | default: workshop.dates.items | default: empty %}
+{% assign timezone = include.timezone | default: workshop.dates.timezone %}
+{% assign kicker = include.kicker | default: 'Next deadline' %}
+
+{% if dates and dates.size > 0 %}
+  <div class="card countdown" data-countdown data-timezone="{{ timezone | escape }}" data-deadlines="{{ dates | jsonify | escape }}">
+    <div class="countdown__kicker">{{ kicker }}</div>
+    <div class="countdown__row">
+      <div class="countdown__main">
+        <div class="countdown__title" data-countdown-label></div>
+        <div class="countdown__date" data-countdown-date></div>
+      </div>
+      <div class="countdown__metric" aria-label="Days left">
+        <div class="countdown__number" data-countdown-days></div>
+        <div class="countdown__unit">days left</div>
+      </div>
+    </div>
+    {% if timezone %}
+      <div class="countdown__meta">All deadlines are end-of-day in {{ timezone }}.</div>
+    {% endif %}
+  </div>
+{% endif %}
+

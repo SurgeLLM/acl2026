@@ -1,0 +1,20 @@
+notes:
+  - "The detailed schedule will be posted closer to ACL 2026."
+blocks:
+  - time: "09:00"
+    title: "Opening remarks"
+  - time: "09:10"
+    title: "Invited talk"
+  - time: "10:30"
+    title: "Coffee break"
+  - time: "11:40"
+    title: "Invited talk"
+  - time: "12:00"
+    title: "Poster session"
+  - time: "12:30"
+    title: "Student mentoring lunch session"
+  - time: "16:00"
+    title: "Panel discussion"
+  - time: "17:00"
+    title: "Closing remarks"
+

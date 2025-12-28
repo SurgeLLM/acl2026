@@ -1,0 +1,25 @@
+tracks:
+  - id: archival
+    title: "Proceedings (Archival)"
+    description: "Accepted papers are published in the ACL Anthology."
+    links:
+      - label: "Direct submission (OpenReview)"
+        url: "https://openreview.net/group?id=aclweb.org/ACL/2026/Workshop/SURGeLLM#tab-your-consoles"
+        primary: true
+      - label: "ARR commitment (OpenReview)"
+        url: "https://openreview.net/group?id=aclweb.org/ACL/2026/Workshop/SURGeLLM_ARR_Commitment"
+  - id: non_archival
+    title: "Non-Proceedings (Non-Archival)"
+    description: "Presentation-only track (not published in the ACL Anthology)."
+    links:
+      - label: "Non-archival submission form"
+        url: "https://forms.gle/pStJVCU43ew4hqbs7"
+        primary: true
+
+notes:
+  - "We welcome both long (up to 8 pages) and short (up to 4 pages) submissions in ACL format (excluding references and appendices)."
+  - "At submission time, authors must indicate whether the paper is intended for archival (proceedings) or non-archival presentation."
+  - "ARR-reviewed papers can be submitted via the commitment form if they have not been accepted/published elsewhere."
+  - "ACL Findings / main-conference papers may request cross-presentation via the non-archival track (subject to capacity)."
+  - "We welcome a broad spectrum of contributions: position papers, datasets/benchmarks, systems reports, ablations, and negative results (when well-supported)."
+  - "If you rely on non-public resources (e.g., proprietary data), ensure results are responsibly summarized and compliant with ACL policies."

@@ -1,0 +1,29 @@
+{% assign updates = workshop.updates.items | default: empty %}
+<section class="section" id="updates">
+  <div class="section__header section__header--split">
+    <h2 class="section__title">Updates</h2>
+    <a class="section__link" href="{{ '/acl2026/updates/' | relative_url }}">All updates</a>
+  </div>
+
+  {% if updates and updates.size > 0 %}
+    <div class="stack">
+      {% for u in updates limit: 3 %}
+        <div class="update">
+          <div class="update__meta">
+            <time datetime="{{ u.date }}">{{ u.date }}</time>
+          </div>
+          <div class="update__title">{{ u.title }}</div>
+          {% if u.body %}
+            <div class="update__body">{{ u.body }}</div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="callout">No updates yet.</div>
+  {% endif %}
+
+  <div class="callout">
+    Help spread the word: <a href="{{ '/acl2026/promote/' | relative_url }}">promotion kit</a>.
+  </div>
+</section>

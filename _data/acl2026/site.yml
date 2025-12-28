@@ -1,0 +1,81 @@
+title: "SURGeLLM 2026"
+short_title: "SURGeLLM"
+subtitle: "Structured Understanding, Retrieval, and Generation in the LLM Era"
+conference: "ACL 2026"
+location: "San Diego, California, USA"
+dates: "ACL 2026 workshop days: July 2–3, 2026 (date/time TBD)"
+base_path: "/acl2026/"
+
+tagline: "First-class NLP for tables, charts, maps, flowcharts, and diagrams."
+description: >-
+  SURGeLLM is a workshop at ACL 2026 bringing together NLP, IR, data management, and visualization researchers to advance structure-aware understanding, retrieval, generation, and evaluation.
+
+banner_image: "/assets/Banner_ACL26.png"
+og_image: "/assets/Banner_ACL26.png"
+
+contact_email: "surgellm@googlegroups.com"
+
+home:
+  announcement:
+    pill: "CFP Open"
+    message: "Direct submissions due 2026-03-05 (AoE)."
+    link_label: "Submit"
+    link_url: "https://openreview.net/group?id=aclweb.org/ACL/2026/Workshop/SURGeLLM#tab-your-consoles"
+  cards:
+    - title: "Why submit?"
+      body: "Structured artifacts are everywhere — but today’s LLM systems still struggle with faithful reasoning, retrieval, and generation over them."
+      items:
+        - "Get feedback from a cross-community audience (NLP × IR × DB × Visualization)."
+        - "Publish archival papers (proceedings) or present non-archival work (discussion-only)."
+        - "Bring new benchmarks, systems, datasets, and lessons learned — including negative results."
+    - title: "Who should submit?"
+      body: "We welcome work from students, researchers, and practitioners."
+      items:
+        - "Table QA, Text-to-SQL, schema linking, structured retrieval, chart/map/diagram understanding."
+        - "Evaluation, robustness, faithfulness, interpretability, and structure-aware agents."
+        - "Applications in enterprise data, science, healthcare, finance, and more."
+    - title: "Workshop format"
+      body: "A full-day workshop with invited talks and community interaction."
+      items:
+        - "Invited talks + panel discussion."
+        - "Contributed oral presentations and poster session."
+        - "Student mentoring lunch session (planned)."
+
+cta:
+  - label: "Submit on OpenReview"
+    url: "https://openreview.net/group?id=aclweb.org/ACL/2026/Workshop/SURGeLLM#tab-your-consoles"
+    style: primary
+  - label: "Call for Papers"
+    url: "/acl2026/cfp/"
+    style: secondary
+  - label: "Important Dates"
+    url: "/acl2026/dates/"
+    style: secondary
+
+policies:
+  - label: "ACL Anti-Harassment Policy"
+    url: "https://www.aclweb.org/adminwiki/index.php?title=Anti-Harassment_Policy"
+  - label: "ACL Code of Ethics"
+    url: "https://www.aclweb.org/portal/content/code-ethics"
+
+resources:
+  - label: "OpenReview"
+    url: "https://openreview.net/group?id=aclweb.org/ACL/2026/Workshop/SURGeLLM#tab-your-consoles"
+  - label: "Add deadlines to calendar"
+    url: "/acl2026/calendar.ics"
+  - label: "Promotion kit"
+    url: "/acl2026/promote/"
+
+event_jsonld:
+  "@context": "https://schema.org"
+  "@type": "Event"
+  name: "SURGeLLM 2026"
+  description: "Workshop at ACL 2026 on structured understanding, retrieval, and generation in the era of LLMs."
+  startDate: "2026-07-02"
+  endDate: "2026-07-03"
+  eventAttendanceMode: "https://schema.org/MixedEventAttendanceMode"
+  eventStatus: "https://schema.org/EventScheduled"
+  location:
+    "@type": "Place"
+    name: "San Diego, California, USA"
+  url: "https://surgellm.github.io/acl2026/"

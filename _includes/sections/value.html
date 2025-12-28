@@ -1,0 +1,29 @@
+{% assign cards = workshop.site.home.cards | default: empty %}
+<section class="section" id="overview">
+  <div class="section__header">
+    <h2 class="section__title">At a Glance</h2>
+  </div>
+
+  {% if cards and cards.size > 0 %}
+    <div class="grid grid--3">
+      {% for c in cards %}
+        <div class="card">
+          <div class="card__title">{{ c.title }}</div>
+          {% if c.body %}
+            <div class="card__body">{{ c.body }}</div>
+          {% endif %}
+          {% if c.items and c.items.size > 0 %}
+            <div class="prose">
+              <ul>
+                {% for item in c.items %}
+                  <li>{{ item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+</section>
+

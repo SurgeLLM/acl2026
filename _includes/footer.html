@@ -1,0 +1,38 @@
+<footer class="footer" role="contentinfo">
+  <div class="container footer__inner">
+    <div class="footer__col">
+      <div class="footer__title">{{ workshop.site.title | default: site.title }}</div>
+      {% if workshop.site.tagline %}
+        <div class="footer__tagline">{{ workshop.site.tagline }}</div>
+      {% endif %}
+      {% if workshop.site.contact_email %}
+        <div class="footer__contact">
+          Contact: <a href="mailto:{{ workshop.site.contact_email }}">{{ workshop.site.contact_email }}</a>
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="footer__col footer__links">
+      {% if workshop.site.resources and workshop.site.resources.size > 0 %}
+        <div class="footer__links-title">Resources</div>
+        <ul class="footer__links-list">
+          {% for link in workshop.site.resources %}
+            {% assign link_url = link.url | relative_url %}
+            {% if link.url contains 'http' %}
+              {% assign link_url = link.url %}
+            {% endif %}
+            <li><a href="{{ link_url }}"{% if link.url contains 'http' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.label }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if workshop.site.policies and workshop.site.policies.size > 0 %}
+        <div class="footer__links-title">Policies</div>
+        <ul class="footer__links-list">
+          {% for link in workshop.site.policies %}
+            <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  </div>
+</footer>

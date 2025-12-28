@@ -1,0 +1,37 @@
+{% assign dates = workshop.dates.items | default: empty %}
+<section class="section" id="dates">
+  <div class="section__header section__header--split">
+    <h2 class="section__title">Important Dates</h2>
+    <a class="section__link" href="{{ '/acl2026/dates/' | relative_url }}">All dates</a>
+  </div>
+
+  {% if dates and dates.size > 0 %}
+    {% include countdown.html dates=dates kicker="Next key deadline" %}
+    <div class="card">
+      <table class="table">
+        <tbody>
+          {% for d in dates limit: 6 %}
+            <tr>
+              <th scope="row">{{ d.label }}</th>
+              <td>
+                {% if d.date_end %}
+                  <time datetime="{{ d.date }}">{{ d.date }}</time> – <time datetime="{{ d.date_end }}">{{ d.date_end }}</time>
+                {% else %}
+                  <time datetime="{{ d.date }}">{{ d.date }}</time>
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      <div class="card__note">
+        {% if workshop.dates.timezone %}
+          All deadlines are end-of-day in {{ workshop.dates.timezone }}.
+        {% endif %}
+        <a href="{{ '/acl2026/calendar.ics' | relative_url }}">Add to calendar</a>.
+      </div>
+    </div>
+  {% else %}
+    <div class="callout">Dates will be posted soon.</div>
+  {% endif %}
+</section>

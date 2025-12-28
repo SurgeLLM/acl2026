@@ -1,0 +1,36 @@
+title: SURGeLLM
+description: SURGeLLM is a workshop at ACL 2026 on structured understanding, retrieval, and generation in the era of LLMs.
+url: "https://surgellm.github.io"
+baseurl: ""
+
+lang: en
+workshop_id: acl2026
+logo: /assets/Banner_ACL26.png
+theme: null
+
+permalink: pretty
+markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: "acl2026"
+    values:
+      workshop_id: acl2026
+      image: /assets/Banner_ACL26.png
+      description: "A workshop at ACL 2026 focused on structured artifacts as first-class citizens in modern LLM systems — across understanding, retrieval, generation, and evaluation."
+
+exclude:
+  - proposals/
+  - .venv/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - EDITING_GUIDE.md
+  - AGENTS.md
+  - CONTRIBUTING.md
+  - screenshot.png

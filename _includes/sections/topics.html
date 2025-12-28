@@ -1,0 +1,19 @@
+{% assign topics = workshop.topics.items | default: empty %}
+<section class="section" id="topics">
+  <div class="section__header">
+    <h2 class="section__title">Topics</h2>
+  </div>
+
+  {% if topics and topics.size > 0 %}
+    <div class="prose">
+      <ul>
+        {% for topic in topics %}
+          <li>{{ topic }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% else %}
+    <div class="callout">Topics will be posted soon.</div>
+  {% endif %}
+</section>
+

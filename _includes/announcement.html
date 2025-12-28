@@ -1,0 +1,20 @@
+{% assign a = workshop.site.home.announcement %}
+{% if a and a.message %}
+  {% assign a_url = a.link_url | default: '' %}
+  {% assign link_url = a_url | relative_url %}
+  {% if a_url contains 'http' %}
+    {% assign link_url = a_url %}
+  {% endif %}
+  <div class="announcement" role="region" aria-label="Announcement">
+    <div class="container announcement__inner">
+      {% if a.pill %}
+        <span class="announcement__pill">{{ a.pill }}</span>
+      {% endif %}
+      <div class="announcement__message">{{ a.message }}</div>
+      {% if a.link_label and a_url %}
+        <a class="announcement__link" href="{{ link_url }}"{% if a_url contains 'http' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ a.link_label }}</a>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}
+

@@ -1,0 +1,41 @@
+{% assign invited = workshop.speakers.invited | default: empty %}
+<section class="section" id="speakers">
+  <div class="section__header section__header--split">
+    <h2 class="section__title">Invited Speakers</h2>
+    <a class="section__link" href="{{ '/acl2026/speakers/' | relative_url }}">All speakers</a>
+  </div>
+
+  {% if invited and invited.size > 0 %}
+    <div class="grid grid--2">
+      {% for sp in invited limit: 4 %}
+        <div class="person">
+          {% if sp.photo %}
+            <img class="person__photo" src="{{ sp.photo | relative_url }}" alt="Photo of {{ sp.name }}">
+          {% else %}
+            <div class="person__avatar" aria-hidden="true">{{ sp.name | slice: 0 }}</div>
+          {% endif %}
+          <div class="person__body">
+            <div class="person__name">
+              {% if sp.url %}
+                <a href="{{ sp.url }}" target="_blank" rel="noopener noreferrer">{{ sp.name }}</a>
+              {% else %}
+                {{ sp.name }}
+              {% endif %}
+              {% if sp.status %}
+                <span class="badge badge--{{ sp.status }}">{{ sp.status }}</span>
+              {% endif %}
+            </div>
+            {% if sp.affiliation %}
+              <div class="person__meta">{{ sp.affiliation }}</div>
+            {% endif %}
+            {% if sp.bio %}
+              <div class="person__bio">{{ sp.bio }}</div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="callout">Speaker list will be announced soon.</div>
+  {% endif %}
+</section>

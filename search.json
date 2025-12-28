@@ -1,0 +1,18 @@
+---
+layout: null
+permalink: /search.json
+---
+[
+  {% assign first = true %}
+  {% for p in site.pages %}
+    {% if p.title and p.search_exclude != true %}
+      {% unless first %},{% endunless %}
+      {% assign first = false %}
+      {
+        "title": {{ p.title | jsonify }},
+        "url": {{ p.url | relative_url | jsonify }},
+        "content": {{ p.content | strip_html | strip_newlines | jsonify }}
+      }
+    {% endif %}
+  {% endfor %}
+]

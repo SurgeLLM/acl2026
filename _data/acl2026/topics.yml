@@ -1,0 +1,9 @@
+items:
+  - "Methods for tabular understanding and question answering (multi-table reasoning, multi-hop inference, and multimodal integration)."
+  - "Natural language interfaces to structured data (Text-to-SQL, semantic parsing, schema linking, and data discovery)."
+  - "Structure-aware retrieval (tables, cells/rows, chart elements, maps, workflows, and code fragments)."
+  - "Structured generation (text → tables/charts/figures/code) with faithfulness, controllability, and robust evaluation."
+  - "Data-centric AI for LLMs on structured data (representation learning, augmentation, robustness, and domain adaptation)."
+  - "Benchmarking and evaluation (scalability, throughput, contamination, reproducibility, and human-centered assessment)."
+  - "Applications and governance for LLMs over structured data (agentic pipelines, DataOps, privacy, fairness, and reliability)."
+

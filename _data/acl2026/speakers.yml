@@ -1,0 +1,56 @@
+invited:
+  - name: "Lisa Amini"
+    affiliation: "IBM Research, USA"
+    url: "https://research.ibm.com/people/lisa-amini"
+    status: confirmed
+    bio: "Leads IBM’s Data & AI Platforms Research; works on infusing generative and agentic AI into enterprise data platforms."
+  - name: "Dan Roth"
+    affiliation: "University of Pennsylvania and Oracle AI, USA"
+    url: "https://www.cis.upenn.edu/~danroth/"
+    status: confirmed
+    bio: "Eduardo D. Glandt Distinguished Professor at UPenn; Chief AI Scientist at Oracle; Fellow of AAAS/ACM/AAAI/ACL."
+  - name: "Paolo Papotti"
+    affiliation: "EURECOM, France"
+    url: "https://papotti.eurecom.io/index.html"
+    status: confirmed
+    bio: "Associate Professor at EURECOM; works on scalable data management and NLP, data integration, and information quality."
+  - name: "William Yang Wang"
+    affiliation: "UC Santa Barbara, USA"
+    url: "https://sites.cs.ucsb.edu/~william/"
+    status: confirmed
+    bio: "Duncan and Suzanne Mellichamp Professor at UCSB; research spans NLP/ML with an emphasis on responsible and scalable AI."
+  - name: "Mohit Bansal"
+    affiliation: "University of North Carolina at Chapel Hill, USA"
+    url: "https://www.cs.unc.edu/~mbansal/"
+    status: pending
+
+tentative:
+  - name: "Jiawei Han"
+    affiliation: "University of Illinois Urbana-Champaign"
+    url: "https://hanj.cs.illinois.edu/"
+    status: tentative
+  - name: "Heng Ji"
+    affiliation: "University of Illinois Urbana-Champaign"
+    status: tentative
+  - name: "Derek Zhiyuan Cheng"
+    affiliation: "Google DeepMind"
+    status: tentative
+  - name: "James Caverlee"
+    affiliation: "Texas A&M University"
+    status: tentative
+  - name: "Bryan Perozzi"
+    affiliation: "Google Research"
+    status: tentative
+  - name: "Sercan Arik"
+    affiliation: "Google"
+    status: tentative
+  - name: "Luna Dong"
+    affiliation: "Meta"
+    url: "https://lunadong.com/"
+    status: tentative
+  - name: "Shirui Pan"
+    affiliation: "Griffith University"
+    status: tentative
+  - name: "Qingsong Wen"
+    affiliation: "Squirrel AI Learning"
+    status: tentative

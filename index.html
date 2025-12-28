@@ -1,118 +1,19 @@
-<!DOCTYPE html>
-<html lang='en'>
+---
+layout: default
+title: "SURGeLLM"
+permalink: /
+search_exclude: true
+---
 
-<head>
-    <base href=".">
-    <link rel="shortcut icon" type="image/png" href="assets/favicon1.png"/>
-    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
-    <meta name="description" content="SurgeLLM">
-    <meta name="resource-type" content="document">
-    <meta name="distribution" content="global">
-    <meta name="KeyWords" content="Conference">
-    <title>SurgeLLM</title>
-</head>
+<div class="section">
+  <h1>SURGeLLM</h1>
+  <p class="callout">
+    Redirecting to the current workshop site…
+    <a href="{{ '/acl2026/' | relative_url }}">Go to SURGeLLM 2026</a>
+  </p>
+</div>
 
-<body>
+<script>
+  window.location.replace("{{ '/acl2026/' | relative_url }}");
+</script>
 
-    <div class="banner">
-        <img src="assets/Banner_ACL26.png" alt="Conference Template Banner">
-        <div class="top-left">
-            <span class="title1">SURGeLLM: Structured Understanding, Retrieval, and Generation in LLMs era</span> 
-        </div>
-        <div class="bottom-right">
-            ACL 2026 <br> TBD, July TBD TBD, 2026 <br> San Diego, California, US
-        </div>
-    </div>
-
-    <table class="navigation">
-        <tr>
-            <td class="navigation">
-                <a title="Conference Home Page" href=".">Home</a>
-            </td>
-            <td class="navigation">
-                <a title="Schedule" href="Schedules">Schedule</a>
-            </td>
-            <td class="navigation">
-                <a title="Speakers" href="Speakers">Speakers</a>
-            </td>
-            <td class="navigation">
-                <a title="Organizers" href="Organizers">Organizers</a>
-            </td>
-            <td class="navigation">
-                <a title="Accepted Papers" href="Papers">Accepted Papers</a>
-            </td>
-        </tr>
-    </table>
-
-    <h2>Overview and Objective</h2>
-    <p style="text-align: justify;">
-        xxxxxxx
-    </p>
-
-    <!-- <h2>Workshop Photo</h2>
-    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 10px;">
-    <img src="assets/jingrui_present.jpg" alt="Participant 1" style="width: 400px; height: auto; border-radius: 8px;">
-    <img src="assets/luna_present.jpg" alt="Participant 2" style="width: 400px; height: auto; border-radius: 8px;">
-    <img src="assets/jiawei_present.jpg" alt="Participant 3" style="width: 400px; height: auto; border-radius: 8px;">
-    <img src="assets/danai_present.jpg" alt="Participant 3" style="width: 400px; height: auto; border-radius: 8px;">
-    </div> -->
-    
-    <h2>Submission Details</h2>
-    <p style="text-align: justify;">
-        We welcome submissions of papers ranging from 4 to 8 pages as main content, excluding references and appendices.
-    All submissions must be in PDF format and formatted according to the new XXX format published in 
-    <a href="">ACL guidelines</a> (e.g., using the ACL LaTeX template on Overleaf 
-    <a href="">Here</a>) and selecting the “XXX” sample.
-    Following the ACL’26 conference submission policy, reviews are double-blind, and author names and affiliations should NOT be listed. 
-    Submitted works will be assessed based on their novelty, technical quality, potential impact, and clarity of writing (and should be in English). 
-    For papers that primarily rely on empirical evaluations, the experimental settings and results should be clearly presented and repeatable. 
-    We encourage authors to make data and code available publicly when possible.
-    </p>
-
-    <p>
-        <li style="margin-left: 40px;">All submissions must be uploaded electronically through <a href="">Openreview</a></li>
-        <li style="margin-left: 40px;">Accepted papers will not appear in the ACL’26 proceedings and are thus non-archival.</li>
-        <li style="margin-left: 40px;">Authors are allowed to submit works concurrently under review elsewhere or published.</li>
-        <li style="margin-left: 40px;">Accepted papers will be posted on this workshop website.</li>
-        <li style="margin-left: 40px;">Accepted submissions will be accompanied by a poster presentation with selected ones for oral presentations.</li>
-<!--         <li style="margin-left: 40px;">At least one of the authors of the accepted workshop papers is suggested to register for the workshop and be present on the workshop day.</li> -->
-        <li style="margin-left: 40px;">For questions regarding submissions, please contact us at: <a href=""></a></li>
-    </p>
-
-    <h2>Important Dates</h2>
-    <p style="text-align: justify;">
-        All submission deadlines are end-of-day in the Anywhere on Earth (AoE) time zone:
-    </p>
-    <li style="margin-left: 40px;">Workshop paper submission: XXXX Xth, 2026</li>
-    <li style="margin-left: 40px;">Workshop paper notification: XXXX Xth,2026</li>
-    <li style="margin-left: 40px;">Camera Ready Submission: XXXX Xth,2026</li>
-    <li style="margin-left: 40px;">Workshop date: July Xth, 2026</li>
-    <li style="margin-left: 40px;"><a href="">Poster Format and Instruction</a></li>
-    <li style="margin-left: 40px;">Workshop paper website: <a href="">Openreview</a></li>
-    <p style="text-align: justify;">
-        If you have any questions, please contact: <a href=""></a>
-    </p>
-
-    <h2>Topics</h2>
-       <li style="margin-left: 40px;"><span style="font-weight: 800;">Methods for tabular understanding and question answering, including multi-table reasoning, multi-hop inference, and integration with unstructured or multimodal data.</span></li>
-       <li style="margin-left: 40px;"><span style="font-weight: 800;">Techniques for generating structured outputs (tables, charts, figures, code) from natural language, with attention to schema intent.</span></li>
-       <li style="margin-left: 40px;"><span style="font-weight: 800;">Approaches to improve correctness, faithfulness, interpretability, and robustness in structured generation, including rubric-based evaluation.</span></li>
-       <li style="margin-left: 40px;"><span style="font-weight: 800;">Retrieval methods for structured content, enabling access to cells, rows, map regions, chart elements, and code fragments from natural language.</span></li>
-       <li style="margin-left: 40px;"><span style="font-weight: 800;">Synchronization of information across structures and modalities, such as cross-lingual tables, text–table–figure alignment, and temporal updates.</span></li>
-       <li style="margin-left: 40px;"><span style="font-weight: 800;">Evaluation frameworks for structure-aware reasoning, retrieval, and generation, combining automated metrics with human-centered assessment.</span></li>
-       <li style="margin-left: 40px;"><span style="font-weight: 800;">Applications of large language and vision language models in structure-aware workflows, particularly in agentic pipelines, DataOps, and system design with governance.</span></li>
-    
-
-
-    <footer>
-    <!-- &nbsp;|&nbsp; Design by <a href="https://yuwang0103.github.io/">Yu Wang</a> -->
-    <br><br>
-    <div style="text-align: center;">
-        <div style="width: 300px; max-width: 90%; margin: 0 auto;">
-            <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=FrEzGBBnkb2X2rV9OFHx8YYKNq1Th4qkAMalbwI5cTg&cl=ffffff&w=a"></script>
-        </div>
-    </div>
-    </footer>
-
-</body>
-</html>

@@ -1,0 +1,41 @@
+<section class="section" id="submission">
+  <div class="section__header">
+    <h2 class="section__title">Submission</h2>
+  </div>
+
+  {% assign submission = workshop.submission %}
+  {% if submission %}
+    <div class="grid grid--2">
+      {% for track in submission.tracks %}
+        <div class="card">
+          <div class="card__title">{{ track.title }}</div>
+          {% if track.description %}
+            <div class="card__body">{{ track.description }}</div>
+          {% endif %}
+          {% if track.links and track.links.size > 0 %}
+            <div class="card__actions">
+              {% for link in track.links %}
+                <a class="button button--small{% if link.primary %} button--primary{% endif %}" href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    {% if submission.notes and submission.notes.size > 0 %}
+      <div class="prose">
+        <ul>
+          {% for note in submission.notes %}
+            <li>{{ note }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  {% endif %}
+
+  <div class="callout">
+    Full details on the <a href="{{ '/acl2026/cfp/' | relative_url }}">Call for Papers</a>.
+  </div>
+</section>
+

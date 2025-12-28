@@ -1,0 +1,40 @@
+<section class="hero">
+  <div class="hero__content">
+    <h1 class="hero__title">
+      {{ workshop.site.title }}
+      {% if workshop.site.subtitle %}
+        <span class="hero__subtitle">{{ workshop.site.subtitle }}</span>
+      {% endif %}
+    </h1>
+
+    <div class="hero__meta">
+      {% if workshop.site.dates %}<span>{{ workshop.site.dates }}</span>{% endif %}
+      {% if workshop.site.location %}<span> · {{ workshop.site.location }}</span>{% endif %}
+    </div>
+
+    {% if workshop.site.description %}
+      <p class="hero__lede">{{ workshop.site.description }}</p>
+    {% endif %}
+
+    {% if workshop.site.cta and workshop.site.cta.size > 0 %}
+      <div class="hero__cta">
+        {% for cta in workshop.site.cta %}
+          {% assign cta_url = cta.url | relative_url %}
+          {% if cta.url contains 'http' %}
+            {% assign cta_url = cta.url %}
+          {% endif %}
+          <a class="button{% if cta.style == 'primary' %} button--primary{% endif %}" href="{{ cta_url }}"{% if cta.url contains 'http' %} target="_blank" rel="noopener noreferrer"{% endif %}>
+            {{ cta.label }}
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+
+  {% if workshop.site.banner_image %}
+    <div class="hero__media">
+      <img class="hero__image" src="{{ workshop.site.banner_image | relative_url }}" alt="{{ workshop.site.title }} banner">
+    </div>
+  {% endif %}
+</section>
+

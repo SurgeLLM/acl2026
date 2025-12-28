@@ -1,0 +1,21 @@
+.DS_Store
+
+# Jekyll
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Bundler
+.bundle/
+vendor/bundle/
+
+# Python
+.venv/
+
+AGENTS.md
+CONTRIBUTING.md
+EDITING.md
+LICENSE.md
+README.md
+ROADMAP.md
+SECURITY.md

@@ -1,0 +1,21 @@
+- label: Home
+  url: /acl2026/
+- label: CFP
+  url: /acl2026/cfp/
+- label: Dates
+  url: /acl2026/dates/
+- label: Program
+  url: /acl2026/program/
+- label: Speakers
+  url: /acl2026/speakers/
+- label: Organizers
+  url: /acl2026/organizers/
+- label: Venue
+  url: /acl2026/venue/
+- label: FAQ
+  url: /acl2026/faq/
+- label: Updates
+  url: /acl2026/updates/
+- label: Papers
+  url: /acl2026/papers/
+

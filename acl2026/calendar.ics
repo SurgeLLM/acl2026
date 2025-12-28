@@ -1,0 +1,34 @@
+---
+layout: null
+workshop_id: acl2026
+permalink: /acl2026/calendar.ics
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SURGeLLM//ACL 2026 Workshop//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SURGeLLM 2026 Deadlines
+X-WR-CALDESC:Important dates for SURGeLLM @ ACL 2026 (deadlines are end-of-day AoE unless stated otherwise).
+
+{% assign workshop_id = page.workshop_id | default: site.workshop_id | default: 'acl2026' %}
+{% assign workshop = site.data[workshop_id] %}
+{% assign dtstamp = site.time | date: "%Y%m%dT%H%M%SZ" %}
+{% for d in workshop.dates.items %}
+  {% assign start_ts = d.date | date: "%s" %}
+  {% assign end_ts = start_ts | plus: 86400 %}
+  {% if d.date_end %}
+    {% assign end_ts = d.date_end | date: "%s" | plus: 86400 %}
+  {% endif %}
+BEGIN:VEVENT
+UID:surgellm-{{ d.date }}-{{ forloop.index }}@googlegroups.com
+DTSTAMP:{{ dtstamp }}
+DTSTART;VALUE=DATE:{{ start_ts | date: "%Y%m%d" }}
+DTEND;VALUE=DATE:{{ end_ts | date: "%Y%m%d" }}
+SUMMARY:{{ d.label | replace: ",", "\\," | replace: ";", "\\;" }} (SURGeLLM)
+DESCRIPTION:See {{ '/acl2026/dates/' | absolute_url }}. All deadlines are end-of-day AoE unless stated otherwise.
+URL:{{ '/acl2026/dates/' | absolute_url }}
+END:VEVENT
+
+{% endfor %}
+END:VCALENDAR

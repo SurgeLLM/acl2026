@@ -1,0 +1,13 @@
+<header class="header" role="banner">
+  <div class="container header__inner">
+    <a class="brand" href="{{ workshop.site.base_path | default: '/' | relative_url }}">
+      <span class="brand__title">{{ workshop.site.short_title | default: workshop.site.title | default: site.title }}</span>
+      {% if workshop.site.conference %}
+        <span class="brand__meta">{{ workshop.site.conference }}</span>
+      {% endif %}
+    </a>
+
+    {% include nav.html %}
+  </div>
+</header>
+
