@@ -2,7 +2,7 @@
 layout: default
 title: "Speakers"
 workshop_id: acl2026
-permalink: /acl2026/speakers/
+permalink: /speakers/
 image: /assets/Banner_ACL26.png
 description: "Invited and tentative speakers for SURGeLLM @ ACL 2026."
 ---

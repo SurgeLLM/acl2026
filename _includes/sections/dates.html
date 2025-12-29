@@ -2,7 +2,7 @@
 <section class="section" id="dates">
   <div class="section__header section__header--split">
     <h2 class="section__title">Important Dates</h2>
-    <a class="section__link" href="{{ '/acl2026/dates/' | relative_url }}">All dates</a>
+    <a class="section__link" href="{{ '/dates/' | relative_url }}">All dates</a>
   </div>
 
   {% if dates and dates.size > 0 %}
@@ -28,7 +28,7 @@
         {% if workshop.dates.timezone %}
           All deadlines are end-of-day in {{ workshop.dates.timezone }}.
         {% endif %}
-        <a href="{{ '/acl2026/calendar.ics' | relative_url }}">Add to calendar</a>.
+        <a href="{{ '/calendar.ics' | relative_url }}">Add to calendar</a>.
       </div>
     </div>
   {% else %}

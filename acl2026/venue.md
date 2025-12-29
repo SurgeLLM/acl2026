@@ -2,7 +2,7 @@
 layout: default
 title: "Venue"
 workshop_id: acl2026
-permalink: /acl2026/venue/
+permalink: /venue/
 image: /assets/Banner_ACL26.png
 description: "Venue and participation details for SURGeLLM @ ACL 2026 in San Diego."
 ---

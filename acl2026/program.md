@@ -2,7 +2,7 @@
 layout: default
 title: "Program"
 workshop_id: acl2026
-permalink: /acl2026/program/
+permalink: /program/
 image: /assets/Banner_ACL26.png
 description: "SURGeLLM @ ACL 2026 program overview, format, and tentative schedule."
 ---
@@ -14,7 +14,7 @@ description: "SURGeLLM @ ACL 2026 program overview, format, and tentative schedu
 SURGeLLM is planned as a **full-day** workshop featuring invited talks, contributed presentations, posters, and a panel. The detailed schedule will be announced closer to ACL 2026.
 
 <div class="callout">
-  Want to attend or present remotely? We aim to support hybrid participation (subject to ACL policies). See <a href="{{ '/acl2026/venue/' | relative_url }}">Venue</a> and <a href="{{ '/acl2026/faq/' | relative_url }}">FAQ</a>.
+  Want to attend or present remotely? We aim to support hybrid participation (subject to ACL policies). See <a href="{{ '/venue/' | relative_url }}">Venue</a> and <a href="{{ '/faq/' | relative_url }}">FAQ</a>.
 </div>
 
 **What to expect**

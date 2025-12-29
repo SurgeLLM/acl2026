@@ -1,7 +1,7 @@
 ---
 layout: null
 workshop_id: acl2026
-permalink: /acl2026/calendar.ics
+permalink: /calendar.ics
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
@@ -26,8 +26,8 @@ DTSTAMP:{{ dtstamp }}
 DTSTART;VALUE=DATE:{{ start_ts | date: "%Y%m%d" }}
 DTEND;VALUE=DATE:{{ end_ts | date: "%Y%m%d" }}
 SUMMARY:{{ d.label | replace: ",", "\\," | replace: ";", "\\;" }} (SURGeLLM)
-DESCRIPTION:See {{ '/acl2026/dates/' | absolute_url }}. All deadlines are end-of-day AoE unless stated otherwise.
-URL:{{ '/acl2026/dates/' | absolute_url }}
+DESCRIPTION:See {{ '/dates/' | absolute_url }}. All deadlines are end-of-day AoE unless stated otherwise.
+URL:{{ '/dates/' | absolute_url }}
 END:VEVENT
 
 {% endfor %}

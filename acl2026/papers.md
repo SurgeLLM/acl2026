@@ -2,7 +2,7 @@
 layout: default
 title: "Papers"
 workshop_id: acl2026
-permalink: /acl2026/papers/
+permalink: /papers/
 image: /assets/Banner_ACL26.png
 description: "Accepted papers for SURGeLLM @ ACL 2026 (posted after decisions)."
 ---

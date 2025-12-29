@@ -2,7 +2,7 @@
 layout: default
 title: "Promote"
 workshop_id: acl2026
-permalink: /acl2026/promote/
+permalink: /promote/
 image: /assets/Banner_ACL26.png
 description: "Shareable copy/paste text and links to promote SURGeLLM @ ACL 2026."
 ---
@@ -15,9 +15,9 @@ Use the snippets below to share the CFP with students and colleagues.
 
 ### Key links
 
-- Website: `{{ '/acl2026/' | absolute_url }}`
-- CFP: `{{ '/acl2026/cfp/' | absolute_url }}`
-- Dates: `{{ '/acl2026/dates/' | absolute_url }}`
+- Website: `{{ '/' | absolute_url }}`
+- CFP: `{{ '/cfp/' | absolute_url }}`
+- Dates: `{{ '/dates/' | absolute_url }}`
 - Submit (OpenReview): `{{ workshop.submission.tracks[0].links[0].url }}`
 - Contact: `{{ workshop.site.contact_email }}`
 
@@ -29,7 +29,7 @@ SURGeLLM @ ACL 2026 (San Diego) — Structured Understanding, Retrieval, and Gen
 Two tracks: archival (ACL Anthology) + non-archival (presentation only).
 Direct submissions due 2026-03-05 (AoE).
 
-Details: {{ '/acl2026/' | absolute_url }}
+Details: {{ '/' | absolute_url }}
 Submit: {{ workshop.submission.tracks[0].links[0].url }}
 ```
 
@@ -46,12 +46,11 @@ We welcome both:
   • Proceedings (archival; published in the ACL Anthology)
   • Non-proceedings (non-archival; presentation/discussion only)
 
-Key dates: {{ '/acl2026/dates/' | absolute_url }} (deadlines are AoE)
+Key dates: {{ '/dates/' | absolute_url }} (deadlines are AoE)
 Submission link: {{ workshop.submission.tracks[0].links[0].url }}
-Workshop website: {{ '/acl2026/' | absolute_url }}
+Workshop website: {{ '/' | absolute_url }}
 
 Questions: {{ workshop.site.contact_email }}
 
 Best,
 ```
-

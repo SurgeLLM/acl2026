@@ -2,7 +2,7 @@
 layout: default
 title: "Important Dates"
 workshop_id: acl2026
-permalink: /acl2026/dates/
+permalink: /dates/
 image: /assets/Banner_ACL26.png
 description: "SURGeLLM @ ACL 2026 important dates and deadlines (AoE)."
 ---
@@ -16,7 +16,7 @@ All deadlines are end-of-day in {{ workshop.dates.timezone }}.
 {% endif %}
 
 <div class="callout">
-  Add these dates to your calendar: <a href="{{ '/acl2026/calendar.ics' | relative_url }}">calendar.ics</a>.
+  Add these dates to your calendar: <a href="{{ '/calendar.ics' | relative_url }}">calendar.ics</a>.
 </div>
 
 {% include countdown.html kicker="Next key deadline" %}

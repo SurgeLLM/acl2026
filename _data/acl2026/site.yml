@@ -4,7 +4,7 @@ subtitle: "Structured Understanding, Retrieval, and Generation in the LLM Era"
 conference: "ACL 2026"
 location: "San Diego, California, USA"
 dates: "ACL 2026 workshop days: July 2–3, 2026 (date/time TBD)"
-base_path: "/acl2026/"
+base_path: "/"
 
 tagline: "First-class NLP for tables, charts, maps, flowcharts, and diagrams."
 description: >-
@@ -46,10 +46,10 @@ cta:
     url: "https://openreview.net/group?id=aclweb.org/ACL/2026/Workshop/SURGeLLM#tab-your-consoles"
     style: primary
   - label: "Call for Papers"
-    url: "/acl2026/cfp/"
+    url: "/cfp/"
     style: secondary
   - label: "Important Dates"
-    url: "/acl2026/dates/"
+    url: "/dates/"
     style: secondary
 
 policies:
@@ -62,9 +62,9 @@ resources:
   - label: "OpenReview"
     url: "https://openreview.net/group?id=aclweb.org/ACL/2026/Workshop/SURGeLLM#tab-your-consoles"
   - label: "Add deadlines to calendar"
-    url: "/acl2026/calendar.ics"
+    url: "/calendar.ics"
   - label: "Promotion kit"
-    url: "/acl2026/promote/"
+    url: "/promote/"
 
 event_jsonld:
   "@context": "https://schema.org"

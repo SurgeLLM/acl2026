@@ -2,7 +2,7 @@
 layout: default
 title: "Updates"
 workshop_id: acl2026
-permalink: /acl2026/updates/
+permalink: /updates/
 image: /assets/Banner_ACL26.png
 description: "Announcements and reminders for SURGeLLM @ ACL 2026."
 ---
@@ -12,7 +12,7 @@ description: "Announcements and reminders for SURGeLLM @ ACL 2026."
 ## Updates
 
 <div class="callout">
-  Add deadlines to your calendar: <a href="{{ '/acl2026/calendar.ics' | relative_url }}">calendar.ics</a>. Help share the CFP: <a href="{{ '/acl2026/promote/' | relative_url }}">promotion kit</a>.
+  Add deadlines to your calendar: <a href="{{ '/calendar.ics' | relative_url }}">calendar.ics</a>. Help share the CFP: <a href="{{ '/promote/' | relative_url }}">promotion kit</a>.
 </div>
 
 {% if workshop.updates.items %}

@@ -1,7 +1,7 @@
 title: SURGeLLM
 description: SURGeLLM is a workshop at ACL 2026 on structured understanding, retrieval, and generation in the era of LLMs.
 url: "https://surgellm.github.io"
-baseurl: ""
+baseurl: "/acl2026"
 
 lang: en
 workshop_id: acl2026

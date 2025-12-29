@@ -2,7 +2,7 @@
 layout: default
 title: "Call for Papers"
 workshop_id: acl2026
-permalink: /acl2026/cfp/
+permalink: /cfp/
 image: /assets/Banner_ACL26.png
 description: "Call for Papers for SURGeLLM @ ACL 2026: submission tracks, links, policies, and formatting guidance."
 ---
@@ -71,11 +71,11 @@ We welcome a broad spectrum of contributions, including:
 
 ## Topics
 
-See the topics list on the home page: {{ '/acl2026/#topics' | relative_url }}.
+See the topics list on the home page: {{ '/#topics' | relative_url }}.
 
 ## Important dates
 
-See `{{ '/acl2026/dates/' | relative_url }}`.
+See `{{ '/dates/' | relative_url }}`.
 
 ## Mentoring and accessibility
 

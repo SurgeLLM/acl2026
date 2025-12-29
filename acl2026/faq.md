@@ -2,7 +2,7 @@
 layout: default
 title: "FAQ"
 workshop_id: acl2026
-permalink: /acl2026/faq/
+permalink: /faq/
 image: /assets/Banner_ACL26.png
 description: "Frequently asked questions about SURGeLLM @ ACL 2026 submissions and attendance."
 ---

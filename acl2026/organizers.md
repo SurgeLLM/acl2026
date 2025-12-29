@@ -2,7 +2,7 @@
 layout: default
 title: "Organizers & Committee"
 workshop_id: acl2026
-permalink: /acl2026/organizers/
+permalink: /organizers/
 image: /assets/Banner_ACL26.png
 description: "Organizing committee, roles, and program committee for SURGeLLM @ ACL 2026."
 ---
