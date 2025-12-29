@@ -2,26 +2,33 @@ invited:
   - name: "Lisa Amini"
     affiliation: "IBM Research, USA"
     url: "https://research.ibm.com/people/lisa-amini"
+    scholar: "https://scholar.google.com/citations?user=wstakvUAAAAJ&hl=en"
+    linkedin: "https://www.linkedin.com/in/lisa-amini-19523313/"
     status: confirmed
     bio: "Leads IBM’s Data & AI Platforms Research; works on infusing generative and agentic AI into enterprise data platforms."
   - name: "Dan Roth"
     affiliation: "University of Pennsylvania and Oracle AI, USA"
     url: "https://www.cis.upenn.edu/~danroth/"
+    scholar: "https://scholar.google.com/citations?user=E-bpPWgAAAAJ&hl=en"
     status: confirmed
     bio: "Eduardo D. Glandt Distinguished Professor at UPenn; Chief AI Scientist at Oracle; Fellow of AAAS/ACM/AAAI/ACL."
   - name: "Paolo Papotti"
     affiliation: "EURECOM, France"
     url: "https://papotti.eurecom.io/index.html"
+    scholar: "https://scholar.google.com/citations?user=YwoezYX7JVgJ&hl=en"
     status: confirmed
     bio: "Associate Professor at EURECOM; works on scalable data management and NLP, data integration, and information quality."
   - name: "William Yang Wang"
     affiliation: "UC Santa Barbara, USA"
     url: "https://sites.cs.ucsb.edu/~william/"
+    scholar: "https://scholar.google.com/citations?user=gf8Ms_8AAAAJ&hl=en"
     status: confirmed
     bio: "Duncan and Suzanne Mellichamp Professor at UCSB; research spans NLP/ML with an emphasis on responsible and scalable AI."
   - name: "Mohit Bansal"
     affiliation: "University of North Carolina at Chapel Hill, USA"
     url: "https://www.cs.unc.edu/~mbansal/"
+    scholar: "https://scholar.google.com/citations?user=DN8QtscAAAAJ&hl=en"
+    linkedin: "https://www.linkedin.com/in/mohitbansalnlp/"
     status: pending
 
 tentative:

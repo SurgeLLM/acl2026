@@ -627,6 +627,32 @@ kbd {
   font-size: 14px;
 }
 
+.person__links {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.link-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid rgba(var(--brand-rgb), 0.20);
+  padding: 4px 10px;
+  text-decoration: none;
+  color: var(--brand);
+  background: rgba(var(--brand-rgb), 0.06);
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.link-chip:hover {
+  text-decoration: underline;
+  background: rgba(var(--brand-rgb), 0.10);
+}
+
 .badge {
   font-size: 12px;
   padding: 2px 8px;

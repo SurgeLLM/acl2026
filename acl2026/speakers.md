@@ -34,6 +34,16 @@ description: "Invited and tentative speakers for SURGeLLM @ ACL 2026."
           {% if sp.affiliation %}
             <div class="person__meta">{{ sp.affiliation }}</div>
           {% endif %}
+          {% if sp.scholar or sp.linkedin %}
+            <div class="person__links" aria-label="Links for {{ sp.name }}">
+              {% if sp.scholar %}
+                <a class="link-chip" href="{{ sp.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              {% endif %}
+              {% if sp.linkedin %}
+                <a class="link-chip" href="{{ sp.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              {% endif %}
+            </div>
+          {% endif %}
           {% if sp.bio %}
             <div class="person__bio">{{ sp.bio }}</div>
           {% endif %}
@@ -70,6 +80,16 @@ description: "Invited and tentative speakers for SURGeLLM @ ACL 2026."
             </div>
             {% if sp.affiliation %}
               <div class="person__meta">{{ sp.affiliation }}</div>
+            {% endif %}
+            {% if sp.scholar or sp.linkedin %}
+              <div class="person__links" aria-label="Links for {{ sp.name }}">
+                {% if sp.scholar %}
+                  <a class="link-chip" href="{{ sp.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+                {% endif %}
+                {% if sp.linkedin %}
+                  <a class="link-chip" href="{{ sp.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                {% endif %}
+              </div>
             {% endif %}
           </div>
         </div>
