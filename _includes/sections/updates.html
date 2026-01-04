@@ -1,4 +1,4 @@
-{% assign updates = workshop.updates.items | default: empty %}
+{% assign updates = workshop.updates.items | default: empty | where_exp: "u", "u.internal != true" %}
 <section class="section" id="updates">
   <div class="section__header section__header--split">
     <h2 class="section__title">Updates</h2>

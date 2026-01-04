@@ -14,7 +14,8 @@ X-WR-CALDESC:Important dates for SURGeLLM @ ACL 2026 (deadlines are end-of-day A
 {% assign workshop_id = page.workshop_id | default: site.workshop_id | default: 'acl2026' %}
 {% assign workshop = site.data[workshop_id] %}
 {% assign dtstamp = site.time | date: "%Y%m%dT%H%M%SZ" %}
-{% for d in workshop.dates.items %}
+{% assign dates = workshop.dates.items | default: empty | where_exp: "d", "d.internal != true" %}
+{% for d in dates %}
   {% assign start_ts = d.date | date: "%s" %}
   {% assign end_ts = start_ts | plus: 86400 %}
   {% if d.date_end %}

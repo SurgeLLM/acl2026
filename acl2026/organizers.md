@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Organizers & Committee"
+title: "Organizers"
 workshop_id: acl2026
 permalink: /organizers/
 image: /assets/Banner_ACL26.png
-description: "Organizing committee, roles, and program committee for SURGeLLM @ ACL 2026."
+description: "Organizing committee for SURGeLLM @ ACL 2026."
 ---
 
 {% include workshop.html %}
@@ -35,34 +35,13 @@ description: "Organizing committee, roles, and program committee for SURGeLLM @ 
           {% if o.affiliation %}
             <div class="person__meta">{{ o.affiliation }}</div>
           {% endif %}
-          {% if o.email %}
-            <div class="person__bio"><a href="mailto:{{ o.email }}">{{ o.email }}</a></div>
-          {% endif %}
         </div>
       </div>
     {% endfor %}
   </div>
 {% endif %}
 
-{% if workshop.organizers.roles %}
-  <div class="section">
-    <h2>Roles</h2>
-    <div class="card">
-      <table class="table">
-        <tbody>
-          {% for r in workshop.organizers.roles %}
-            <tr>
-              <th scope="row">{{ r.label }}</th>
-              <td>{{ r.names | join: ", " }}</td>
-            </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
-  </div>
-{% endif %}
-
-{% if workshop.committee.program_committee %}
+{% if workshop.committee.publish and workshop.committee.program_committee %}
   <div class="section">
     <h2>Program Committee</h2>
     <div class="card">
@@ -78,9 +57,14 @@ description: "Organizing committee, roles, and program committee for SURGeLLM @ 
       </div>
     </div>
   </div>
+{% else %}
+  <div class="section">
+    <h2>Program Committee</h2>
+    <div class="callout">Program committee will be announced soon.</div>
+  </div>
 {% endif %}
 
-{% if workshop.committee.additional_reviewers %}
+{% if workshop.committee.publish and workshop.committee.additional_reviewers %}
   <div class="section">
     <h2>Additional Reviewers</h2>
     <div class="card">
@@ -92,5 +76,10 @@ description: "Organizing committee, roles, and program committee for SURGeLLM @ 
         {% endfor %}
       </div>
     </div>
+  </div>
+{% else %}
+  <div class="section">
+    <h2>Additional Reviewers</h2>
+    <div class="callout">Additional reviewers will be announced soon.</div>
   </div>
 {% endif %}

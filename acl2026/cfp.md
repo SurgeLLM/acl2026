@@ -14,14 +14,12 @@ description: "Call for Papers for SURGeLLM @ ACL 2026: submission tracks, links,
 SURGeLLM invites submissions on structured understanding, retrieval, generation, and evaluation in the era of LLMs — with structured artifacts (tables, charts, maps, flowcharts, diagrams) treated as first-class citizens.
 
 <div class="callout">
-  <strong>Quick links</strong>:
-  <a href="{{ workshop.submission.tracks[0].links[0].url }}" target="_blank" rel="noopener noreferrer">Direct submission</a> ·
-  <a href="{{ workshop.submission.tracks[0].links[1].url }}" target="_blank" rel="noopener noreferrer">ARR commitment</a> ·
-  <a href="{{ workshop.submission.tracks[1].links[0].url }}" target="_blank" rel="noopener noreferrer">Non-archival form</a> ·
-  Contact: <a href="mailto:{{ workshop.site.contact_email }}">{{ workshop.site.contact_email }}</a>
+  Contact: <a href="mailto:{{ workshop.site.contact_email }}">{{ workshop.site.contact_email }}</a>. See <a href="{{ '/dates/' | relative_url }}">Important Dates</a>.
 </div>
 
 We welcome submissions in two categories: **Proceedings (Archival)** and **Non-Proceedings (Non-Archival)**.
+
+{% include sections/submission.html %}
 
 ### Proceedings (Archival)
 

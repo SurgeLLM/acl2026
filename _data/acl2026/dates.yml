@@ -2,10 +2,13 @@ timezone: "Anywhere on Earth (AoE)"
 items:
   - label: "First call for workshop papers"
     date: "2025-12-10"
+    internal: true
   - label: "Second call for workshop papers"
     date: "2026-01-15"
+    internal: true
   - label: "Third call for workshop papers"
     date: "2026-02-20"
+    internal: true
   - label: "Direct paper submission deadline"
     date: "2026-03-05"
   - label: "Pre-reviewed ARR commitment deadline"
@@ -16,9 +19,10 @@ items:
     date: "2026-05-12"
   - label: "Proceedings due (hard deadline)"
     date: "2026-06-01"
+    internal: true
   - label: "Pre-recorded video due (hard deadline)"
     date: "2026-06-04"
+    internal: true
   - label: "Workshop dates"
     date: "2026-07-02"
     date_end: "2026-07-03"
-

@@ -15,9 +15,11 @@ description: "Announcements and reminders for SURGeLLM @ ACL 2026."
   Add deadlines to your calendar: <a href="{{ '/calendar.ics' | relative_url }}">calendar.ics</a>. Help share the CFP: <a href="{{ '/promote/' | relative_url }}">promotion kit</a>.
 </div>
 
-{% if workshop.updates.items %}
+{% assign updates = workshop.updates.items | default: empty | where_exp: "u", "u.internal != true" %}
+
+{% if updates and updates.size > 0 %}
   <div class="stack">
-    {% for u in workshop.updates.items %}
+    {% for u in updates %}
       <div class="update">
         <div class="update__meta"><time datetime="{{ u.date }}">{{ u.date }}</time></div>
         <div class="update__title">{{ u.title }}</div>

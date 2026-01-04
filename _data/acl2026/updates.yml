@@ -2,10 +2,12 @@ items:
   - date: "2025-12-10"
     title: "First CFP announcement"
     body: "The first call for papers is out. Please share with colleagues and students."
+    internal: true
   - date: "2026-01-15"
     title: "Second CFP announcement"
     body: "Reminder: SURGeLLM welcomes both archival and non-archival submissions."
+    internal: true
   - date: "2026-02-20"
     title: "Third CFP announcement"
     body: "Final pre-deadline reminder. See the CFP page for submission links."
-
+    internal: true

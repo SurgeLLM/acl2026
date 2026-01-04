@@ -34,7 +34,9 @@
     {% endif %}
   {% endif %}
 
-  <div class="callout">
-    Full details on the <a href="{{ '/cfp/' | relative_url }}">Call for Papers</a>.
-  </div>
+  {% unless page.permalink == '/cfp/' %}
+    <div class="callout">
+      Full details on the <a href="{{ '/cfp/' | relative_url }}">Call for Papers</a>.
+    </div>
+  {% endunless %}
 </section>

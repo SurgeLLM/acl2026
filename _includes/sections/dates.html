@@ -1,4 +1,4 @@
-{% assign dates = workshop.dates.items | default: empty %}
+{% assign dates = workshop.dates.items | default: empty | where_exp: "d", "d.internal != true" %}
 <section class="section" id="dates">
   <div class="section__header section__header--split">
     <h2 class="section__title">Important Dates</h2>

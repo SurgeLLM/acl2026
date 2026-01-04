@@ -11,6 +11,8 @@ description: "SURGeLLM @ ACL 2026 important dates and deadlines (AoE)."
 
 ## Important Dates
 
+{% assign dates = workshop.dates.items | default: empty | where_exp: "d", "d.internal != true" %}
+
 {% if workshop.dates.timezone %}
 All deadlines are end-of-day in {{ workshop.dates.timezone }}.
 {% endif %}
@@ -19,12 +21,12 @@ All deadlines are end-of-day in {{ workshop.dates.timezone }}.
   Add these dates to your calendar: <a href="{{ '/calendar.ics' | relative_url }}">calendar.ics</a>.
 </div>
 
-{% include countdown.html kicker="Next key deadline" %}
+{% include countdown.html dates=dates kicker="Next key deadline" %}
 
 <div class="card">
   <table class="table">
     <tbody>
-      {% for d in workshop.dates.items %}
+      {% for d in dates %}
         <tr>
           <th scope="row">{{ d.label }}</th>
           <td>
