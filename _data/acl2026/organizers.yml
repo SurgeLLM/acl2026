@@ -8,6 +8,7 @@ items:
     email: "kaize.ding@northwestern.edu"
   - name: "Harsha Kokel"
     affiliation: "IBM Research"
+    photo: "/assets/people/harsha-kokel.jpg"
     url: "https://harshakokel.com"
     email: "harsha.kokel@ibm.com"
   - name: "Yue Zhao"
@@ -15,6 +16,7 @@ items:
     email: "yzhao010@usc.edu"
   - name: "Amit Agarwal"
     affiliation: "Oracle"
+    photo: "/assets/people/amit-agarwal.jpg"
     url: "https://scholar.google.com/citations?user=Mc9RC6QAAAAJ"
     email: "amit.h.agarwal@oracle.com"
   - name: "Yu Wang"
@@ -48,6 +50,7 @@ items:
     email: "cshuaich@amazon.com"
   - name: "Yuan Luo"
     affiliation: "Northwestern University"
+    photo: "/assets/people/yuan-luo.jpg"
     email: "yuan.luo@northwestern.edu"
 
 roles:
@@ -63,4 +66,3 @@ roles:
     names: ["Yu Zhang", "Oktie Hassanzadeh", "Amit Agarwal"]
   - label: "Workshop chairs (in-person)"
     names: ["Kaize Ding"]
-
