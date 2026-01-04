@@ -31,33 +31,33 @@ invited:
     linkedin: "https://www.linkedin.com/in/mohitbansalnlp/"
     status: pending
 
-tentative:
-  - name: "Jiawei Han"
-    affiliation: "University of Illinois Urbana-Champaign"
-    url: "https://hanj.cs.illinois.edu/"
-    status: tentative
-  - name: "Heng Ji"
-    affiliation: "University of Illinois Urbana-Champaign"
-    status: tentative
-  - name: "Derek Zhiyuan Cheng"
-    affiliation: "Google DeepMind"
-    status: tentative
-  - name: "James Caverlee"
-    affiliation: "Texas A&M University"
-    status: tentative
-  - name: "Bryan Perozzi"
-    affiliation: "Google Research"
-    status: tentative
-  - name: "Sercan Arik"
-    affiliation: "Google"
-    status: tentative
-  - name: "Luna Dong"
-    affiliation: "Meta"
-    url: "https://lunadong.com/"
-    status: tentative
-  - name: "Shirui Pan"
-    affiliation: "Griffith University"
-    status: tentative
-  - name: "Qingsong Wen"
-    affiliation: "Squirrel AI Learning"
-    status: tentative
+# tentative:
+#   - name: "Jiawei Han"
+#     affiliation: "University of Illinois Urbana-Champaign"
+#     url: "https://hanj.cs.illinois.edu/"
+#     status: tentative
+#   - name: "Heng Ji"
+#     affiliation: "University of Illinois Urbana-Champaign"
+#     status: tentative
+#   - name: "Derek Zhiyuan Cheng"
+#     affiliation: "Google DeepMind"
+#     status: tentative
+#   - name: "James Caverlee"
+#     affiliation: "Texas A&M University"
+#     status: tentative
+#   - name: "Bryan Perozzi"
+#     affiliation: "Google Research"
+#     status: tentative
+#   - name: "Sercan Arik"
+#     affiliation: "Google"
+#     status: tentative
+#   - name: "Luna Dong"
+#     affiliation: "Meta"
+#     url: "https://lunadong.com/"
+#     status: tentative
+#   - name: "Shirui Pan"
+#     affiliation: "Griffith University"
+#     status: tentative
+#   - name: "Qingsong Wen"
+#     affiliation: "Squirrel AI Learning"
+#     status: tentative
