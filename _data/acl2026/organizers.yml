@@ -52,6 +52,7 @@ items:
     photo: "/assets/people/oktie-hassanzadeh.jpg"
   - name: "Qi Zhu"
     affiliation: "AWS"
+    photo: "/assets/people/qi-zhu.jpg"
     email: "qi.zhu.ckc@gmail.com"
   - name: "Shuaichen Chang"
     affiliation: "AWS AI Lab"
