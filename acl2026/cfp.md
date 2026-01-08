@@ -21,7 +21,7 @@ We welcome submissions in two categories: **Proceedings (Archival)** and **Non-P
 
 {% include sections/submission.html %}
 
-### Proceedings (Archival)
+### Main Submission (Archival)
 
 Papers accepted in this category will be published in the ACL Anthology.
 
@@ -37,9 +37,9 @@ Submit:
 
 ### Non-Proceedings (Non-Archival)
 
-This category is intended for presentation and discussion only; papers will not appear in the ACL Anthology.
+This category is intended for presentation and discussion only; papers will not appear in the workshop proceedings.
 
-This track includes (for example) previously published papers in relevant venues and ACL Findings/main-conference papers requesting cross-presentation (subject to capacity).
+We welcome cross-presentation of **ACL 2026 Findings** papers (and other recently accepted work), subject to capacity.
 
 Submit:
 
