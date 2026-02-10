@@ -13,24 +13,24 @@ invited:
     scholar: "https://scholar.google.com/citations?user=E-bpPWgAAAAJ&hl=en"
     status: confirmed
     bio: "Eduardo D. Glandt Distinguished Professor at UPenn; Chief AI Scientist at Oracle; Fellow of AAAS/ACM/AAAI/ACL."
-  - name: "Paolo Papotti"
-    affiliation: "EURECOM, France"
-    url: "https://papotti.eurecom.io/index.html"
-    scholar: "https://scholar.google.com/citations?user=YwoezYX7JVgJ&hl=en"
+  - name: "Heng Ji"
+    affiliation: "UIUC, USA"
+    url: "https://blender.cs.illinois.edu/hengji.html"
+    scholar: "https://scholar.google.com/citations?user=z7GCqT4AAAAJ&hl=en"
     status: confirmed
-    bio: "Associate Professor at EURECOM; works on scalable data management and NLP, data integration, and information quality."
-  - name: "William Yang Wang"
-    affiliation: "UC Santa Barbara, USA"
-    url: "https://sites.cs.ucsb.edu/~william/"
-    scholar: "https://scholar.google.com/citations?user=gf8Ms_8AAAAJ&hl=en"
+    bio: "Professor at UIUC; Co-founder/CTO of Medicas AI; Founding Director of AICE/ASKS; ACL Fellow."
+  # - name: "William Yang Wang"
+  #   affiliation: "UC Santa Barbara, USA"
+  #   url: "https://sites.cs.ucsb.edu/~william/"
+  #   scholar: "https://scholar.google.com/citations?user=gf8Ms_8AAAAJ&hl=en"
+  #   status: confirmed
+  #   bio: "Duncan and Suzanne Mellichamp Professor at UCSB; research spans NLP/ML with an emphasis on responsible and scalable AI."
+  - name: "Hamid Palangi"
+    affiliation: "Google, UW, USA"
+    url: "https://www.hamidpalangi.com/"
+    scholar: "https://scholar.google.com/citations?user=B1lAghgAAAAJ&hl=en"
     status: confirmed
-    bio: "Duncan and Suzanne Mellichamp Professor at UCSB; research spans NLP/ML with an emphasis on responsible and scalable AI."
-  - name: "Mohit Bansal"
-    affiliation: "University of North Carolina at Chapel Hill, USA"
-    url: "https://www.cs.unc.edu/~mbansal/"
-    scholar: "https://scholar.google.com/citations?user=DN8QtscAAAAJ&hl=en"
-    linkedin: "https://www.linkedin.com/in/mohitbansalnlp/"
-    status: pending
+    bio: "Starf Research Scienstist at Google, Affiliate Associate Professor at UW."
 
 # tentative:
 #   - name: "Jiawei Han"
