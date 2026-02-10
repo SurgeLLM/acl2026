@@ -6,7 +6,7 @@
     <a class="section__link" href="{{ '/speakers/' | relative_url }}">All speakers</a>
   </div>
 
-  {% if publish and invited and invited.size > 0 %}
+  {% if invited and invited.size > 0 %}
     <div class="grid grid--2">
       {% for sp in invited limit: 4 %}
         <div class="person">
