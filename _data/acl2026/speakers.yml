@@ -4,19 +4,22 @@ invited:
     affiliation: "IBM Research, USA"
     url: "https://research.ibm.com/people/lisa-amini"
     scholar: "https://scholar.google.com/citations?user=wstakvUAAAAJ&hl=en"
-    linkedin: "https://www.linkedin.com/in/lisa-amini-19523313/"
+    # linkedin: "https://www.linkedin.com/in/lisa-amini-19523313/"
+    photo: "/assets/people/amini-lisa.jpg"
     status: confirmed
     bio: "Leads IBM’s Data & AI Platforms Research; works on infusing generative and agentic AI into enterprise data platforms."
   - name: "Dan Roth"
     affiliation: "University of Pennsylvania and Oracle AI, USA"
     url: "https://www.cis.upenn.edu/~danroth/"
     scholar: "https://scholar.google.com/citations?user=E-bpPWgAAAAJ&hl=en"
+    photo: "/assets/people/roth-dan.jpg"
     status: confirmed
     bio: "Eduardo D. Glandt Distinguished Professor at UPenn; Chief AI Scientist at Oracle; Fellow of AAAS/ACM/AAAI/ACL."
   - name: "Heng Ji"
     affiliation: "UIUC, USA"
     url: "https://blender.cs.illinois.edu/hengji.html"
     scholar: "https://scholar.google.com/citations?user=z7GCqT4AAAAJ&hl=en"
+    photo: "/assets/people/ji-heng.jpg"
     status: confirmed
     bio: "Professor at UIUC; Co-founder/CTO of Medicas AI; Founding Director of AICE/ASKS; ACL Fellow."
   # - name: "William Yang Wang"
@@ -29,6 +32,7 @@ invited:
     affiliation: "Google, UW, USA"
     url: "https://www.hamidpalangi.com/"
     scholar: "https://scholar.google.com/citations?user=B1lAghgAAAAJ&hl=en"
+    photo: "/assets/people/palangi-hamid.jpg"
     status: confirmed
     bio: "Starf Research Scienstist at Google, Affiliate Associate Professor at UW."
 
