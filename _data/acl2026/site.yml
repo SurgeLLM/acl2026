@@ -18,7 +18,7 @@ contact_email: "surgellm@googlegroups.com"
 home:
   announcement:
     pill: "CFP Open"
-    message: "Direct submissions due 2026-03-05 (AoE)."
+    message: "Direct submissions due 2026-03-22 (AoE)."
     link_label: "Submit"
     link_url: "https://openreview.net/group?id=aclweb.org/ACL/2026/Workshop/SURGeLLM#tab-your-consoles"
   cards:

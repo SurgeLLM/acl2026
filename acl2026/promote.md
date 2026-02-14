@@ -27,7 +27,7 @@ Use the snippets below to share the CFP with students and colleagues.
 SURGeLLM @ ACL 2026 (San Diego) — Structured Understanding, Retrieval, and Generation in the LLM era.
 
 Two tracks: archival (ACL Anthology) + non-archival (presentation only).
-Direct submissions due 2026-03-05 (AoE).
+Direct submissions due 2026-03-22 (AoE).
 
 Details: {{ '/' | absolute_url }}
 Submit: {{ workshop.submission.tracks[0].links[0].url }}
