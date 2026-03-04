@@ -66,6 +66,12 @@ resources:
   - label: "Promotion kit"
     url: "/promote/"
 
+sponsors:
+  - name: "Snorkel AI"
+    url: "https://snorkel.ai/"
+    logo: "/assets/sponsors/snorkel.svg"
+    alt: "Snorkel AI logo"
+
 event_jsonld:
   "@context": "https://schema.org"
   "@type": "Event"

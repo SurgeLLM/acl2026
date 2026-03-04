@@ -34,5 +34,35 @@
         </ul>
       {% endif %}
     </div>
+
+    {% if workshop.site.sponsors and workshop.site.sponsors.size > 0 %}
+      <div class="footer__col footer__sponsors">
+        <div class="footer__links-title">Sponsors</div>
+        <div class="footer__sponsor-list">
+          {% for sponsor in workshop.site.sponsors %}
+            {% assign sponsor_url = sponsor.url | relative_url %}
+            {% if sponsor.url contains 'http' %}
+              {% assign sponsor_url = sponsor.url %}
+            {% endif %}
+            <a
+              class="footer__sponsor"
+              href="{{ sponsor_url }}"
+              {% if sponsor.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}
+              aria-label="{{ sponsor.name }}"
+            >
+              {% if sponsor.logo %}
+                <img
+                  class="footer__sponsor-logo"
+                  src="{{ sponsor.logo | relative_url }}"
+                  alt="{{ sponsor.alt | default: sponsor.name }}"
+                >
+              {% else %}
+                <span class="footer__sponsor-name">{{ sponsor.name }}</span>
+              {% endif %}
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
   </div>
 </footer>
