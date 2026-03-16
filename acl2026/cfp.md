@@ -17,18 +17,19 @@ SURGeLLM invites submissions on structured understanding, retrieval, generation,
   Contact: <a href="mailto:{{ workshop.site.contact_email }}">{{ workshop.site.contact_email }}</a>. See <a href="{{ '/dates/' | relative_url }}">Important Dates</a>.
 </div>
 
-We welcome submissions in two categories: **Proceedings (Archival)** and **Non-Proceedings (Non-Archival)**.
+We welcome two submission routes: **Main Submission** and **Non-Proceedings (presentation-only cross-presentation)**.
 
 {% include sections/submission.html %}
 
-### Main Submission (Archival)
+### Main Submission (Archival or Non-Archival)
 
-Papers accepted in this category will be published in the ACL Anthology.
+This is the primary route for new submissions to the workshop. Authors may choose either **archival** publication in the ACL Anthology or **non-archival** presentation without proceedings publication.
 
+- Direct submissions may include early-stage or in-progress work intended for discussion, feedback, or showcase; prior peer review is not required.
 - Submissions may be under review elsewhere at the time of submission.
-- Upon acceptance, authors must make a binding commitment to publish the paper in exactly one venue.
+- If authors choose the archival option and the paper is accepted, they must make a binding commitment to publish the paper in exactly one venue.
 - Archival submissions must present substantially new and original work and comply with ACL policy on overlap/self-plagiarism.
-- If you plan to submit your work to a future venue, choose the non-archival track instead.
+- If authors choose the non-archival option, the paper can be presented at the workshop without appearing in the ACL Anthology.
 
 Submit:
 
@@ -39,7 +40,7 @@ Submit:
 
 This category is intended for presentation and discussion only; papers will not appear in the workshop proceedings.
 
-We welcome cross-presentation of **ACL 2026 Findings** papers (and other recently accepted work), subject to capacity.
+We welcome cross-presentation of **ACL 2026 Findings** papers (and other recently accepted work), subject to capacity. This route is for already accepted or already reviewed work that is being presented only, rather than newly submitted main-submission papers.
 
 Submit:
 
@@ -62,7 +63,7 @@ We welcome a broad spectrum of contributions, including:
 
 ## Submission checklist
 
-- Pick a track: **archival** (proceedings) vs **non-archival** (presentation only).
+- For a main submission, indicate whether you want **archival** publication or **non-archival** presentation.
 - Use ACL format; stay within page limits (excluding references/appendix).
 - Follow ARR/ACL anonymization rules when applicable.
 - Include enough experimental detail to support reproducibility (and clearly state any non-public resources).
@@ -82,8 +83,8 @@ See `{{ '/dates/' | relative_url }}`.
 
 ## Multiple submission & cross-presentation
 
-- At submission time, authors must clearly indicate whether their submission is intended for **archival (proceedings)** or **non-archival** presentation.
+- At submission time, main-submission authors must clearly indicate whether their submission is intended for **archival (proceedings)** or **non-archival** presentation.
 - **Only papers not committed to any other venue are eligible for archival publication** in the ACL Anthology.
-- Papers previously accepted elsewhere are eligible **only** for non-archival presentation.
-- Authors intending to submit their work to future conferences/journals should select the **non-archival** track.
+- Main submissions that are presented non-archivally are welcome, including work in progress intended for community feedback.
+- Papers previously accepted elsewhere are eligible **only** for the separate presentation-only non-proceedings track.
 - ACL Findings / main-conference papers may request cross-presentation via the non-archival track (subject to capacity).

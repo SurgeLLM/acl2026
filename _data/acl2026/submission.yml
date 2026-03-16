@@ -1,7 +1,7 @@
 tracks:
   - id: archival
-    title: "Main Submission (Archival)"
-    description: "Accepted papers are published in the ACL Anthology."
+    title: "Main Submission (Archival or Non-Archival)"
+    description: "Submit new work, including work in progress. Accepted main submissions may be published in the ACL Anthology (archival) or presented without proceedings publication (non-archival), based on the choice indicated at submission."
     links:
       - label: "Direct submission (OpenReview)"
         url: "https://openreview.net/group?id=aclweb.org/ACL/2026/Workshop/SURGeLLM#tab-your-consoles"
@@ -18,7 +18,8 @@ tracks:
 
 notes:
   - "We welcome both long (up to 8 pages) and short (up to 4 pages) submissions in ACL format (excluding references and appendices)."
-  - "At submission time, authors must indicate whether the paper is intended for archival (proceedings) or non-archival presentation."
+  - "At submission time, main-submission authors should indicate whether their paper is intended for archival publication or non-archival presentation."
+  - "Direct main submissions may include new work that is still under development and does not need prior peer review."
   - "ARR-reviewed papers can be submitted via the commitment form if they have not been accepted/published elsewhere."
   - "ACL Findings / main-conference papers may request cross-presentation via the non-archival track (subject to capacity)."
   - "We welcome a broad spectrum of contributions: position papers, datasets/benchmarks, systems reports, ablations, and negative results (when well-supported)."

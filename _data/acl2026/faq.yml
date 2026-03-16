@@ -1,8 +1,8 @@
 items:
   - q: "What’s the difference between archival and non-archival submissions?"
-    a: "Archival papers are published in the ACL Anthology. Non-archival papers are for presentation/discussion only and are not published in the ACL Anthology."
+    a: "For main submissions, archival papers are published in the ACL Anthology, while non-archival papers are presented at the workshop without proceedings publication. The separate non-proceedings route is presentation-only and is mainly for cross-presentation of already accepted or previously reviewed work."
   - q: "How do I choose between archival and non-archival?"
-    a: "Choose archival if you want the paper published in the ACL Anthology and it is not committed to another venue. Choose non-archival if the work is already published, is an ACL Findings/main-conference cross-presentation request (subject to capacity), or if you plan to submit the work to a future venue."
+    a: "Choose archival if you want your main submission published in the ACL Anthology and it is not committed to another venue. Choose non-archival if you want to present new or in-progress work at the workshop without proceedings publication. Use the separate non-proceedings route for ACL Findings/main-conference cross-presentation requests and other already accepted work."
   - q: "Are submissions double-blind?"
     a: "Please follow ARR/ACL workshop submission requirements. If anonymization is required for your track, do not include author names/affiliations in the submitted PDF."
   - q: "Can I submit an ARR-reviewed paper?"
