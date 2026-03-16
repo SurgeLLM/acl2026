@@ -17,13 +17,13 @@ SURGeLLM invites submissions on structured understanding, retrieval, generation,
   Contact: <a href="mailto:{{ workshop.site.contact_email }}">{{ workshop.site.contact_email }}</a>. See <a href="{{ '/dates/' | relative_url }}">Important Dates</a>.
 </div>
 
-We welcome two submission routes: **Main Submission** and **Non-Proceedings (presentation-only cross-presentation)**.
+We welcome two submission routes: **Main Track** and **Presentation-only track**.
 
 {% include sections/submission.html %}
 
-### Main Submission (Archival or Non-Archival)
+### Main Track
 
-This is the primary route for new submissions to the workshop. Authors may choose either **archival** publication in the ACL Anthology or **non-archival** presentation without proceedings publication.
+This track is for new research, including early-stage work. Authors may choose whether or not the accepted papers are published in the ACL Anthology as part of the workshop proceedings.
 
 - Direct submissions may include early-stage or in-progress work intended for discussion, feedback, or showcase; prior peer review is not required.
 - Submissions may be under review elsewhere at the time of submission.
@@ -36,11 +36,9 @@ Submit:
 - [Direct submission (OpenReview)]({{ workshop.submission.tracks[0].links[0].url }})
 - [ARR commitment (OpenReview)]({{ workshop.submission.tracks[0].links[1].url }})
 
-### Non-Proceedings (Non-Archival)
+### Presentation-only track
 
-This category is intended for presentation and discussion only; papers will not appear in the workshop proceedings.
-
-We welcome cross-presentation of **ACL 2026 Findings** papers (and other recently accepted work), subject to capacity. This route is for already accepted or already reviewed work that is being presented only, rather than newly submitted main-submission papers.
+This track enables authors to present recently accepted or published work, including ACL Findings, at the workshop.
 
 Submit:
 
@@ -55,36 +53,7 @@ We welcome a broad spectrum of contributions, including:
 - Systems and deployment lessons (DataOps, governance, reliability, throughput/latency, human factors).
 - Careful ablations, negative results, and reproducibility studies that illuminate failure modes and trade-offs.
 
-## Formatting and length
-
-- We welcome both long (up to 8 pages) and short (up to 4 pages) papers in ACL format (excluding references and appendices).
-- Submissions should be consistent with ARR submission requirements: https://aclrollingreview.org/cfp#paper-submission-information
-- If anonymization is required for your track, do not include author names/affiliations in the submitted PDF.
-
-## Submission checklist
-
-- For a main submission, indicate whether you want **archival** publication or **non-archival** presentation.
-- Use ACL format; stay within page limits (excluding references/appendix).
-- Follow ARR/ACL anonymization rules when applicable.
-- Include enough experimental detail to support reproducibility (and clearly state any non-public resources).
-
-## Topics
-
-See the topics list on the home page: {{ '/#topics' | relative_url }}.
-
-## Important dates
-
-See `{{ '/dates/' | relative_url }}`.
-
 ## Mentoring and accessibility
 
 - We plan a student mentoring lunch session and community Q&A (details TBD).
 - If you have accessibility needs or questions about hybrid participation, email <a href="mailto:{{ workshop.site.contact_email }}">{{ workshop.site.contact_email }}</a>.
-
-## Multiple submission & cross-presentation
-
-- At submission time, main-submission authors must clearly indicate whether their submission is intended for **archival (proceedings)** or **non-archival** presentation.
-- **Only papers not committed to any other venue are eligible for archival publication** in the ACL Anthology.
-- Main submissions that are presented non-archivally are welcome, including work in progress intended for community feedback.
-- Papers previously accepted elsewhere are eligible **only** for the separate presentation-only non-proceedings track.
-- ACL Findings / main-conference papers may request cross-presentation via the non-archival track (subject to capacity).

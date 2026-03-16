@@ -1,7 +1,7 @@
 tracks:
   - id: archival
-    title: "Main Submission (Archival or Non-Archival)"
-    description: "Submit new work, including work in progress. Accepted main submissions may be published in the ACL Anthology (archival) or presented without proceedings publication (non-archival), based on the choice indicated at submission."
+    title: "Main Track"
+    description: "This track is for new research, including early-stage work. Authors may choose whether or not the accepted papers are published in the ACL Anthology as part of the workshop proceedings."
     links:
       - label: "Direct submission (OpenReview)"
         url: "https://openreview.net/group?id=aclweb.org/ACL/2026/Workshop/SURGeLLM#tab-your-consoles"
@@ -9,8 +9,8 @@ tracks:
       - label: "ARR commitment (OpenReview)"
         url: "https://openreview.net/group?id=aclweb.org/ACL/2026/Workshop/SURGeLLM_ARR_Commitment"
   - id: non_archival
-    title: "Non-Proceedings (Non-Archival)"
-    description: "Presentation-only track for cross-presentation of ACL 2026 Findings and other recently accepted work (not published in the workshop proceedings)."
+    title: "Presentation-only track"
+    description: "This track enables authors to present recently accepted or published work, including ACL Findings, at the workshop."
     links:
       - label: "Non-archival submission form"
         url: "https://forms.gle/pStJVCU43ew4hqbs7"
@@ -20,7 +20,6 @@ notes:
   - "We welcome both long (up to 8 pages) and short (up to 4 pages) submissions in ACL format (excluding references and appendices)."
   - "At submission time, main-submission authors should indicate whether their paper is intended for archival publication or non-archival presentation."
   - "Direct main submissions may include new work that is still under development and does not need prior peer review."
-  - "ARR-reviewed papers can be submitted via the commitment form if they have not been accepted/published elsewhere."
   - "ACL Findings / main-conference papers may request cross-presentation via the non-archival track (subject to capacity)."
   - "We welcome a broad spectrum of contributions: position papers, datasets/benchmarks, systems reports, ablations, and negative results (when well-supported)."
   - "If you rely on non-public resources (e.g., proprietary data), ensure results are responsibly summarized and compliant with ACL policies."

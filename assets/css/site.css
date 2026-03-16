@@ -406,6 +406,30 @@ kbd {
   color: var(--muted);
 }
 
+.submission-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.submission-card .card__title {
+  font-size: 1.15rem;
+}
+
+.submission-card .card__body {
+  max-width: 38ch;
+}
+
+.submission-card__actions {
+  margin-top: auto;
+  align-items: stretch;
+}
+
+.submission-card__actions .button {
+  min-height: 42px;
+  line-height: 1.3;
+}
+
 .countdown__kicker {
   text-transform: uppercase;
   font-size: 12px;
