@@ -10,9 +10,11 @@ items:
     date: "2026-02-20"
     internal: true
   - label: "Direct paper submission deadline"
-    date: "2026-03-22"
+    old_date: "2026-03-22"
+    date: "2026-03-25"
   - label: "Pre-reviewed ARR commitment deadline"
-    date: "2026-03-24"
+    old_date: "2026-03-24"
+    date: "2026-03-25"
   - label: "Notification of acceptance"
     date: "2026-04-28"
   - label: "Camera-ready paper due"
