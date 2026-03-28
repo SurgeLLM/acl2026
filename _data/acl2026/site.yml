@@ -69,7 +69,7 @@ resources:
 sponsors:
   - name: "Snorkel AI"
     url: "https://snorkel.ai/"
-    logo: "/assets/sponsors/snorkel.svg"
+    logo: "/assets/sponsors/snorkel.jpg"
     alt: "Snorkel AI logo"
 
 event_jsonld:
