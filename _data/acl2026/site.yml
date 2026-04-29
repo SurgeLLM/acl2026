@@ -18,9 +18,9 @@ contact_email: "surgellm@googlegroups.com"
 home:
   announcement:
     pill: "Deadline Extended"
-    message: "Direct submissions due <s>2026-03-22</s> <strong>2026-03-25</strong> (AoE)."
-    link_label: "Submit"
-    link_url: "https://openreview.net/group?id=aclweb.org/ACL/2026/Workshop/SURGeLLM#tab-your-consoles"
+    message: "Notification of acceptance <s>2026-04-28</s> <strong>2026-04-30</strong> (AoE)."
+    link_label: "Dates"
+    link_url: "/dates/"
   cards:
     - title: "Why submit?"
       body: "Structured artifacts are everywhere — but today’s LLM systems still struggle with faithful reasoning, retrieval, and generation over them."
