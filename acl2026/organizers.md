@@ -47,11 +47,38 @@ description: "Organizing committee for SURGeLLM @ ACL 2026."
     <div class="card">
       <div class="name-grid">
         {% for pc in workshop.committee.program_committee %}
-          <div class="name-grid__item">
-            <div class="name-grid__name">{{ pc.name }}</div>
-            {% if pc.affiliation %}
-              <div class="name-grid__meta">{{ pc.affiliation }}</div>
+          <div class="name-grid__item{% if pc.photo %} name-grid__item--profile{% endif %}">
+            {% if pc.photo %}
+              <img class="name-grid__photo" src="{{ pc.photo | relative_url }}" alt="Photo of {{ pc.name }}">
             {% endif %}
+            <div>
+              <div class="name-grid__name">
+                {% if pc.url %}
+                  <a href="{{ pc.url }}" target="_blank" rel="noopener noreferrer">{{ pc.name }}</a>
+                {% else %}
+                  {{ pc.name }}
+                {% endif %}
+              </div>
+              {% if pc.affiliation %}
+                <div class="name-grid__meta">{{ pc.affiliation }}</div>
+              {% endif %}
+              {% if pc.focus %}
+                <div class="name-grid__meta">{{ pc.focus }}</div>
+              {% endif %}
+              {% if pc.bio %}
+                <div class="name-grid__bio">{{ pc.bio }}</div>
+              {% endif %}
+              {% if pc.scholar or pc.linkedin %}
+                <div class="name-grid__links" aria-label="Links for {{ pc.name }}">
+                  {% if pc.scholar %}
+                    <a class="link-chip" href="{{ pc.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+                  {% endif %}
+                  {% if pc.linkedin %}
+                    <a class="link-chip" href="{{ pc.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </div>
           </div>
         {% endfor %}
       </div>
@@ -61,25 +88,5 @@ description: "Organizing committee for SURGeLLM @ ACL 2026."
   <div class="section">
     <h2>Program Committee</h2>
     <div class="callout">Program committee will be announced soon.</div>
-  </div>
-{% endif %}
-
-{% if workshop.committee.publish and workshop.committee.additional_reviewers %}
-  <div class="section">
-    <h2>Additional Reviewers</h2>
-    <div class="card">
-      <div class="name-grid name-grid--compact">
-        {% for r in workshop.committee.additional_reviewers %}
-          <div class="name-grid__item">
-            <div class="name-grid__name">{{ r.name }}</div>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-{% else %}
-  <div class="section">
-    <h2>Additional Reviewers</h2>
-    <div class="callout">Additional reviewers will be announced soon.</div>
   </div>
 {% endif %}
