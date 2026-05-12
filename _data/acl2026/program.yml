@@ -18,10 +18,10 @@ sections:
         type: "invited"
         speakers:
           - "Dan Roth"
-      - time: "10:30 – 11:10"
+      - time: "10:30 – 11:00"
         title: "Coffee Break + Networking + Poster Session I"
         type: "poster"
-      - time: "11:10 – 11:45"
+      - time: "11:00 – 11:45"
         title: "Oral Session I"
         type: "oral"
       - time: "11:45 – 12:30"
