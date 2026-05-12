@@ -15,4 +15,3 @@ description: "SURGeLLM @ ACL 2026: Structured Understanding, Retrieval, and Gene
 {% include sections/dates.html %}
 {% include sections/speakers.html %}
 {% include sections/about.html %}
-{% include sections/updates.html %}
