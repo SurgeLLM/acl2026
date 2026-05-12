@@ -3,7 +3,7 @@ short_title: "SURGeLLM"
 subtitle: "Structured Understanding, Retrieval, and Generation in the LLM Era"
 conference: "ACL 2026"
 location: "San Diego, California, USA"
-dates: "ACL 2026 workshop days: July 2–3, 2026 (date/time TBD)"
+dates: "ACL 2026 workshop days: July 2–3, 2026"
 base_path: "/"
 
 tagline: "First-class NLP for tables, charts, maps, flowcharts, and diagrams."
@@ -17,10 +17,10 @@ contact_email: "surgellm@googlegroups.com"
 
 home:
   announcement:
-    pill: "Deadline Extended"
-    message: "Notification of acceptance <s>2026-04-28</s> <strong>2026-04-30</strong> (AoE)."
-    link_label: "Dates"
-    link_url: "/dates/"
+    pill: "Schedule Released"
+    message: "Program schedule is live; acceptance notifications have been sent."
+    link_label: "Program"
+    link_url: "/program/"
   cards:
     - title: "Why submit?"
       body: "Structured artifacts are everywhere — but today’s LLM systems still struggle with faithful reasoning, retrieval, and generation over them."
@@ -38,15 +38,15 @@ home:
       body: "A full-day workshop with invited talks and community interaction."
       items:
         - "Invited talks + panel discussion."
-        - "Contributed oral presentations and poster session."
-        - "Student mentoring lunch session (planned)."
+        - "Contributed oral presentations and poster sessions."
+        - "Networking breaks, lunch, and awards."
 
 cta:
-  - label: "Submit on OpenReview"
-    url: "https://openreview.net/group?id=aclweb.org/ACL/2026/Workshop/SURGeLLM#tab-your-consoles"
+  - label: "View Program"
+    url: "/program/"
     style: primary
-  - label: "Call for Papers"
-    url: "/cfp/"
+  - label: "Accepted Papers"
+    url: "/papers/"
     style: secondary
   - label: "Important Dates"
     url: "/dates/"

@@ -55,5 +55,5 @@ We welcome a broad spectrum of contributions, including:
 
 ## Mentoring and accessibility
 
-- We plan a student mentoring lunch session and community Q&A (details TBD).
+- The workshop program includes networking, poster sessions, an industry panel, and community Q&A.
 - If you have accessibility needs or questions about hybrid participation, email <a href="mailto:{{ workshop.site.contact_email }}">{{ workshop.site.contact_email }}</a>.

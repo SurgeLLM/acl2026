@@ -36,6 +36,39 @@ invited:
     status: confirmed
     bio: "Staff Research Scientist at Google; Affiliate Associate Professor at UW."
 
+panelists:
+  - name: "Kamalika Das"
+    affiliation: "Intuit, USA"
+    url: "https://www.linkedin.com/in/kamalika-das-phd-619bb23"
+    status: confirmed
+    bio: "AI research leader at Intuit focused on reliable and trustworthy applied AI."
+  - name: "Yunyao Li"
+    affiliation: "Adobe, USA"
+    url: "https://yunyaoli.github.io/"
+    linkedin: "https://www.linkedin.com/in/yunyao-li"
+    status: confirmed
+    bio: "Director of Machine Learning at Adobe Experience Platform; works across NLP, databases, and human-computer interaction."
+  - name: "Frederic Sala"
+    affiliation: "Snorkel AI, USA"
+    url: "https://pages.cs.wisc.edu/~fredsala/"
+    scholar: "https://scholar.google.com/citations?hl=en&user=9KhIkNkAAAAJ"
+    status: confirmed
+    bio: "Chief Scientist at Snorkel AI; Assistant Professor in Computer Sciences at UW-Madison."
+  - name: "Lisa Amini"
+    affiliation: "IBM Research, USA"
+    url: "https://research.ibm.com/people/lisa-amini"
+    scholar: "https://scholar.google.com/citations?user=wstakvUAAAAJ&hl=en"
+    photo: "/assets/people/amini-lisa.jpg"
+    status: confirmed
+    bio: "Leads IBM's Data & AI Platforms Research and IBM's AI Horizons Network."
+  - name: "Hamid Palangi"
+    affiliation: "Google, UW, USA"
+    url: "https://www.hamidpalangi.com/"
+    scholar: "https://scholar.google.com/citations?user=B1lAghgAAAAJ&hl=en"
+    photo: "/assets/people/palangi-hamid.jpg"
+    status: confirmed
+    bio: "Staff Research Scientist at Google; Affiliate Associate Professor at UW."
+
 # tentative:
 #   - name: "Jiawei Han"
 #     affiliation: "University of Illinois Urbana-Champaign"
