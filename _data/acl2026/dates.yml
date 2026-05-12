@@ -26,6 +26,5 @@ items:
   - label: "Pre-recorded video due (hard deadline)"
     date: "2026-06-04"
     internal: true
-  - label: "Workshop dates"
-    date: "2026-07-02"
-    date_end: "2026-07-03"
+  - label: "Workshop date"
+    date: "2026-07-03"
