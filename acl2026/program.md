@@ -32,15 +32,6 @@ description: "SURGeLLM @ ACL 2026 program overview, format, and schedule."
   Want to attend or present remotely? We aim to support hybrid participation (subject to ACL policies). See <a href="{{ '/venue/' | relative_url }}">Venue</a> and <a href="{{ '/faq/' | relative_url }}">FAQ</a>.
 </div>
 
-**What to expect**
-- Invited talks from leaders across NLP, IR, data management, and visualization
-- Contributed oral sessions selected from accepted papers
-- Poster sessions paired with coffee breaks and networking
-- Industry panel discussion and community Q&A
-- Closing remarks and awards
-
-**Awards (planned)** We are exploring sponsorships to support community awards (e.g., best paper/best student paper), subject to ACL policies and available funding.
-
 {% if workshop.program.notes %}
 <div class="callout">
   {% for n in workshop.program.notes %}
@@ -154,3 +145,10 @@ description: "SURGeLLM @ ACL 2026 program overview, format, and schedule."
   </table>
 </div>
 {% endif %}
+
+**What to expect**
+- Invited talks from leaders across NLP, IR, data management, and visualization
+- Contributed oral sessions selected from accepted papers
+- Poster sessions paired with coffee breaks and networking
+- Industry panel discussion and community Q&A
+- Awards for Best Paper and Outstanding Papers

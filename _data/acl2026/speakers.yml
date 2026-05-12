@@ -40,18 +40,22 @@ panelists:
   - name: "Kamalika Das"
     affiliation: "Intuit, USA"
     url: "https://www.linkedin.com/in/kamalika-das-phd-619bb23"
+    photo: "/assets/people/kamalika-das.jpg"
     status: confirmed
     bio: "AI research leader at Intuit focused on reliable and trustworthy applied AI."
   - name: "Yunyao Li"
     affiliation: "Adobe, USA"
     url: "https://yunyaoli.github.io/"
     linkedin: "https://www.linkedin.com/in/yunyao-li"
+    photo: "/assets/people/yunyao-li.jpg"
     status: confirmed
     bio: "Director of Machine Learning at Adobe Experience Platform; works across NLP, databases, and human-computer interaction."
   - name: "Frederic Sala"
     affiliation: "Snorkel AI, USA"
     url: "https://pages.cs.wisc.edu/~fredsala/"
     scholar: "https://scholar.google.com/citations?hl=en&user=9KhIkNkAAAAJ"
+    linkedin: "https://www.linkedin.com/in/frederic-sala-b3a7019/"
+    photo: "/assets/people/frederic-sala.jpg"
     status: confirmed
     bio: "Chief Scientist at Snorkel AI; Assistant Professor in Computer Sciences at UW-Madison."
   - name: "Lisa Amini"
