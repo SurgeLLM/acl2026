@@ -10,7 +10,7 @@
     {% include announcement.html %}
     {% include header.html %}
     <main id="main" class="main">
-      <div class="container">
+      <div class="container{% if page.wide %} container--wide{% endif %}">
         {{ content }}
       </div>
     </main>

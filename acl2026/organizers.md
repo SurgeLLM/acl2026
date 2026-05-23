@@ -5,6 +5,7 @@ workshop_id: acl2026
 permalink: /organizers/
 image: /assets/Banner_ACL26.png
 description: "Organizing committee for SURGeLLM @ ACL 2026."
+wide: true
 ---
 
 {% include workshop.html %}
@@ -16,7 +17,7 @@ description: "Organizing committee for SURGeLLM @ ACL 2026."
 ## Organizing Committee
 
 {% if workshop.organizers.items %}
-  <div class="grid grid--2">
+  <div class="grid grid--organizers">
     {% for o in workshop.organizers.items %}
       <div class="person">
         {% if o.photo %}
@@ -35,6 +36,25 @@ description: "Organizing committee for SURGeLLM @ ACL 2026."
           {% if o.affiliation %}
             <div class="person__meta">{{ o.affiliation }}</div>
           {% endif %}
+          {% if o.title %}
+            <div class="person__title">{{ o.title }}</div>
+          {% endif %}
+          {% if o.bio %}
+            <div class="person__bio">{{ o.bio }}</div>
+          {% endif %}
+          {% if o.url or o.scholar or o.linkedin %}
+            <div class="person__links" aria-label="Links for {{ o.name }}">
+              {% if o.url %}
+                <a class="link-chip" href="{{ o.url }}" target="_blank" rel="noopener noreferrer">Website</a>
+              {% endif %}
+              {% if o.scholar %}
+                <a class="link-chip" href="{{ o.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              {% endif %}
+              {% if o.linkedin %}
+                <a class="link-chip" href="{{ o.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              {% endif %}
+            </div>
+          {% endif %}
         </div>
       </div>
     {% endfor %}
@@ -45,7 +65,7 @@ description: "Organizing committee for SURGeLLM @ ACL 2026."
   <div class="section">
     <h2>Program Committee</h2>
     <div class="card">
-      <div class="name-grid">
+      <div class="name-grid name-grid--three">
         {% for pc in workshop.committee.program_committee %}
           <div class="name-grid__item{% if pc.photo %} name-grid__item--profile{% endif %}">
             {% if pc.photo %}
