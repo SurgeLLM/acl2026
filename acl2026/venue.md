@@ -13,7 +13,7 @@ description: "Venue and participation details for SURGeLLM @ ACL 2026 in San Die
 
 SURGeLLM is co-located with ACL 2026 in San Diego, California, USA.
 
-Venue details will follow the main ACL 2026 announcements.
+The workshop is scheduled in **Room: Harbor D**.
 
 <div class="callout">
   Questions about participation logistics? Email <a href="mailto:{{ workshop.site.contact_email }}">{{ workshop.site.contact_email }}</a>.

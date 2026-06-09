@@ -50,7 +50,7 @@ description: "SURGeLLM @ ACL 2026 program overview, format, and schedule."
       </div>
       <div class="agenda-meta" aria-label="Workshop schedule summary">
         <span>08:30–17:30</span>
-        <span>San Diego</span>
+        <span>Room: Harbor D</span>
         <span>Full-day workshop</span>
       </div>
     </div>

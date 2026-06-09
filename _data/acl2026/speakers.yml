@@ -65,13 +65,14 @@ panelists:
     photo: "/assets/people/amini-lisa.jpg"
     status: confirmed
     bio: "Leads IBM's Data & AI Platforms Research and IBM's AI Horizons Network."
-  - name: "Hamid Palangi"
-    affiliation: "Google, UW, USA"
-    url: "https://www.hamidpalangi.com/"
-    scholar: "https://scholar.google.com/citations?user=B1lAghgAAAAJ&hl=en"
-    photo: "/assets/people/palangi-hamid.jpg"
+  - name: "Sujith Ravi"
+    affiliation: "GVP, Oracle AI, USA"
+    url: "https://www.linkedin.com/in/sujithravi/"
+    scholar: "https://scholar.google.com/citations?user=sM-dHicAAAAJ&hl=en&oi=ao"
+    linkedin: "https://www.linkedin.com/in/sujithravi/"
+    photo: "/assets/people/sujith-ravi.png"
     status: confirmed
-    bio: "Staff Research Scientist at Google; Affiliate Associate Professor at UW."
+    bio: "Group Vice President of GenAI at Oracle, former founder of SliceX AI and ex-Head of AI at Google AI and Amazon Alexa AI, currently leading frontier models and agentic systems for enterprise reliability, safety, and large-scale deployment."
 
 # tentative:
 #   - name: "Jiawei Han"
