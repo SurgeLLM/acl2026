@@ -5,6 +5,7 @@ workshop_id: acl2026
 permalink: /speakers/
 image: /assets/Banner_ACL26.png
 description: "Invited speakers and panelists for SURGeLLM @ ACL 2026."
+wide: true
 ---
 
 {% include workshop.html %}
@@ -15,7 +16,7 @@ description: "Invited speakers and panelists for SURGeLLM @ ACL 2026."
 <div>
 {% if workshop.speakers.publish %}
   {% if workshop.speakers.invited %}
-    <div class="grid grid--2">
+    <div class="grid grid--speakers">
       {% for sp in workshop.speakers.invited %}
         <div class="person">
           {% if sp.photo %}
@@ -67,7 +68,7 @@ description: "Invited speakers and panelists for SURGeLLM @ ACL 2026."
 {% if workshop.speakers.publish and workshop.speakers.panelists %}
   <div class="section">
     <h2>Industry Panelists</h2>
-    <div class="grid grid--2">
+    <div class="grid grid--speakers">
       {% for sp in workshop.speakers.panelists %}
         <div class="person">
           {% if sp.photo %}
@@ -113,7 +114,7 @@ description: "Invited speakers and panelists for SURGeLLM @ ACL 2026."
   <div class="section">
     <h2>Tentative Speakers (TBC)</h2>
     <p class="callout">This list is subject to confirmation and may change.</p>
-    <div class="grid grid--2">
+    <div class="grid grid--speakers">
       {% for sp in workshop.speakers.tentative %}
         <div class="person">
           {% if sp.photo %}

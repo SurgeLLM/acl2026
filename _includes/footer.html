@@ -35,33 +35,65 @@
       {% endif %}
     </div>
 
-    {% if workshop.site.sponsors and workshop.site.sponsors.size > 0 %}
+    {% if workshop.site.sponsors and workshop.site.sponsors.size > 0 or workshop.site.workshop_partners and workshop.site.workshop_partners.size > 0 %}
       <div class="footer__col footer__sponsors">
-        <div class="footer__links-title">Sponsors</div>
-        <div class="footer__sponsor-list">
-          {% for sponsor in workshop.site.sponsors %}
-            {% assign sponsor_url = sponsor.url | relative_url %}
-            {% if sponsor.url contains 'http' %}
-              {% assign sponsor_url = sponsor.url %}
-            {% endif %}
-            <a
-              class="footer__sponsor"
-              href="{{ sponsor_url }}"
-              {% if sponsor.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}
-              aria-label="{{ sponsor.name }}"
-            >
-              {% if sponsor.logo %}
-                <img
-                  class="footer__sponsor-logo"
-                  src="{{ sponsor.logo | relative_url }}"
-                  alt="{{ sponsor.alt | default: sponsor.name }}"
-                >
-              {% else %}
-                <span class="footer__sponsor-name">{{ sponsor.name }}</span>
+        {% if workshop.site.sponsors and workshop.site.sponsors.size > 0 %}
+          <div class="footer__links-title">Sponsors</div>
+          <div class="footer__sponsor-list">
+            {% for sponsor in workshop.site.sponsors %}
+              {% assign sponsor_url = sponsor.url | relative_url %}
+              {% if sponsor.url contains 'http' %}
+                {% assign sponsor_url = sponsor.url %}
               {% endif %}
-            </a>
-          {% endfor %}
-        </div>
+              <a
+                class="footer__sponsor"
+                href="{{ sponsor_url }}"
+                {% if sponsor.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}
+                aria-label="{{ sponsor.name }}"
+              >
+                {% if sponsor.logo %}
+                  <img
+                    class="footer__sponsor-logo"
+                    src="{{ sponsor.logo | relative_url }}"
+                    alt="{{ sponsor.alt | default: sponsor.name }}"
+                  >
+                {% else %}
+                  <span class="footer__sponsor-name">{{ sponsor.name }}</span>
+                {% endif %}
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        {% if workshop.site.workshop_partners and workshop.site.workshop_partners.size > 0 %}
+          <div class="footer__partner-group">
+            <div class="footer__links-title">Workshop Partners</div>
+            <div class="footer__sponsor-list">
+              {% for partner in workshop.site.workshop_partners %}
+                {% assign partner_url = partner.url | relative_url %}
+                {% if partner.url contains 'http' %}
+                  {% assign partner_url = partner.url %}
+                {% endif %}
+                <a
+                  class="footer__sponsor"
+                  href="{{ partner_url }}"
+                  {% if partner.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}
+                  aria-label="{{ partner.name }}"
+                >
+                  {% if partner.logo %}
+                    <img
+                      class="footer__sponsor-logo"
+                      src="{{ partner.logo | relative_url }}"
+                      alt="{{ partner.alt | default: partner.name }}"
+                    >
+                  {% else %}
+                    <span class="footer__sponsor-name">{{ partner.name }}</span>
+                  {% endif %}
+                </a>
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
       </div>
     {% endif %}
   </div>

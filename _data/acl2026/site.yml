@@ -72,6 +72,12 @@ sponsors:
     logo: "/assets/sponsors/snorkel.jpg"
     alt: "Snorkel AI logo"
 
+workshop_partners:
+  - name: "Oracle"
+    url: "https://www.oracle.com/"
+    logo: "/assets/sponsors/oracle.svg"
+    alt: "Oracle logo"
+
 event_jsonld:
   "@context": "https://schema.org"
   "@type": "Event"

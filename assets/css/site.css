@@ -510,6 +510,10 @@ kbd {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid--speakers {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .name-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1129,6 +1133,13 @@ kbd {
   line-height: 1.55;
 }
 
+.grid--speakers .person__bio {
+  max-height: 178px;
+  overflow-y: auto;
+  padding-right: 8px;
+  scrollbar-gutter: stable;
+}
+
 .person__links {
   margin-top: 8px;
   display: flex;
@@ -1425,6 +1436,10 @@ kbd {
   gap: 12px;
 }
 
+.footer__partner-group {
+  margin-top: 22px;
+}
+
 .footer__sponsor {
   display: inline-flex;
   align-items: center;
@@ -1610,6 +1625,10 @@ kbd {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .grid--speakers {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .name-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1649,6 +1668,10 @@ kbd {
   }
 
   .grid--organizers {
+    grid-template-columns: 1fr;
+  }
+
+  .grid--speakers {
     grid-template-columns: 1fr;
   }
 

@@ -7,14 +7,16 @@ invited:
     # linkedin: "https://www.linkedin.com/in/lisa-amini-19523313/"
     photo: "/assets/people/amini-lisa.jpg"
     status: confirmed
-    bio: "Leads IBM’s Data & AI Platforms Research; works on infusing generative and agentic AI into enterprise data platforms."
+    bio: >-
+      Dr. Lisa Amini leads IBM's Data & AI Platforms innovation efforts, along with IBM Research's <a href="https://www.research.ibm.com/artificial-intelligence/horizons-network/" target="_blank" rel="noopener noreferrer">AI Horizons Network</a>. She is also an IBM Distinguished Engineer (DE). The mission of her team is to infuse generative and agentic AI throughout IBM's Data Platform, to make it more intelligent, self-service, and autonomous, and to optimize its performance on AI workloads. She has previously been Lab Director of IBM Research Cambridge (home of the <a href="https://mitibmwatsonailab.mit.edu/" target="_blank" rel="noopener noreferrer">MIT-IBM AI Lab</a>), Director of Knowledge & Reasoning Research at IBM Research (NY), and the founding Director of IBM Research Ireland, the first woman Lab Director for an IBM Research Global (i.e., non-US) Lab (2010-2013), and the founding Chief Architect for IBM's InfoSphere Streams product. She earned her PhD degree in Computer Science from Columbia University.
   - name: "Dan Roth"
     affiliation: "University of Pennsylvania and Oracle AI, USA"
     url: "https://www.cis.upenn.edu/~danroth/"
     scholar: "https://scholar.google.com/citations?user=E-bpPWgAAAAJ&hl=en"
     photo: "/assets/people/roth-dan.jpg"
     status: confirmed
-    bio: "Eduardo D. Glandt Distinguished Professor at UPenn; Chief AI Scientist at Oracle; Fellow of AAAS/ACM/AAAI/ACL."
+    bio: >-
+      Dan Roth is the Chief AI Scientist at Oracle and the Eduardo D. Glandt Distinguished Professor at the University of Pennsylvania. Previously, Dan was a VP/Distinguished Scientist at AWS AI where he led the scientific effort behind Amazon's first-generation GenAI products, including Titan Models, Amazon Q, and Amazon Bedrock. Dan is a Fellow of the AAAS, ACM, AAAI, and ACL, and a recipient of the IJCAI John McCarthy Award "for major conceptual and theoretical advances in the modeling of natural language understanding, machine learning, and reasoning." He has published broadly in natural language processing, machine learning, knowledge representation and reasoning, and learning theory, was the Editor-in-Chief of the Journal of Artificial Intelligence Research (JAIR) and has served as a Program Chair and Conference Chair for the major conferences in his research areas. Roth has been involved in several ML/NLP/GenAI startups in domains that range from legal and compliance to health care. Dan received his B.A. Summa cum laude in Mathematics from the Technion, Israel and his Ph.D. in Computer Science from Harvard University in 1995.
   - name: "Heng Ji"
     affiliation: "UIUC, USA"
     url: "https://blender.cs.illinois.edu/hengji.html"
@@ -64,7 +66,8 @@ panelists:
     scholar: "https://scholar.google.com/citations?user=wstakvUAAAAJ&hl=en"
     photo: "/assets/people/amini-lisa.jpg"
     status: confirmed
-    bio: "Leads IBM's Data & AI Platforms Research and IBM's AI Horizons Network."
+    bio: >-
+      IBM Distinguished Engineer leading IBM's Data & AI Platforms innovation and IBM Research's <a href="https://www.research.ibm.com/artificial-intelligence/horizons-network/" target="_blank" rel="noopener noreferrer">AI Horizons Network</a>, focused on infusing generative and agentic AI into enterprise data platforms and AI workloads.
   - name: "Sujith Ravi"
     affiliation: "GVP, Oracle AI, USA"
     url: "https://www.linkedin.com/in/sujithravi/"
