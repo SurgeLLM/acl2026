@@ -18,6 +18,7 @@ wide: true
   {% if workshop.speakers.invited %}
     <div class="grid grid--speakers">
       {% for sp in workshop.speakers.invited %}
+        {% assign profile_url = sp.url | default: sp.linkedin | default: sp.scholar %}
         <div class="person">
           {% if sp.photo %}
             <img class="person__photo" src="{{ sp.photo | relative_url }}" alt="Photo of {{ sp.name }}">
@@ -26,8 +27,8 @@ wide: true
           {% endif %}
           <div class="person__body">
             <div class="person__name">
-              {% if sp.url %}
-                <a href="{{ sp.url }}" target="_blank" rel="noopener noreferrer">{{ sp.name }}</a>
+              {% if profile_url %}
+                <a href="{{ profile_url }}" target="_blank" rel="noopener noreferrer">{{ sp.name }}</a>
               {% else %}
                 {{ sp.name }}
               {% endif %}
@@ -38,16 +39,7 @@ wide: true
             {% if sp.affiliation %}
               <div class="person__meta">{{ sp.affiliation }}</div>
             {% endif %}
-            {% if sp.scholar or sp.linkedin %}
-              <div class="person__links" aria-label="Links for {{ sp.name }}">
-                {% if sp.scholar %}
-                  <a class="link-chip" href="{{ sp.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-                {% endif %}
-                {% if sp.linkedin %}
-                  <a class="link-chip" href="{{ sp.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                {% endif %}
-              </div>
-            {% endif %}
+            {% include profile-links.html person=sp %}
             {% if sp.bio %}
               <div class="person__bio">{{ sp.bio }}</div>
             {% endif %}
@@ -70,6 +62,7 @@ wide: true
     <h2>Industry Panelists</h2>
     <div class="grid grid--speakers">
       {% for sp in workshop.speakers.panelists %}
+        {% assign profile_url = sp.url | default: sp.linkedin | default: sp.scholar %}
         <div class="person">
           {% if sp.photo %}
             <img class="person__photo" src="{{ sp.photo | relative_url }}" alt="Photo of {{ sp.name }}">
@@ -78,8 +71,8 @@ wide: true
           {% endif %}
           <div class="person__body">
             <div class="person__name">
-              {% if sp.url %}
-                <a href="{{ sp.url }}" target="_blank" rel="noopener noreferrer">{{ sp.name }}</a>
+              {% if profile_url %}
+                <a href="{{ profile_url }}" target="_blank" rel="noopener noreferrer">{{ sp.name }}</a>
               {% else %}
                 {{ sp.name }}
               {% endif %}
@@ -90,16 +83,7 @@ wide: true
             {% if sp.affiliation %}
               <div class="person__meta">{{ sp.affiliation }}</div>
             {% endif %}
-            {% if sp.scholar or sp.linkedin %}
-              <div class="person__links" aria-label="Links for {{ sp.name }}">
-                {% if sp.scholar %}
-                  <a class="link-chip" href="{{ sp.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-                {% endif %}
-                {% if sp.linkedin %}
-                  <a class="link-chip" href="{{ sp.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                {% endif %}
-              </div>
-            {% endif %}
+            {% include profile-links.html person=sp %}
             {% if sp.bio %}
               <div class="person__bio">{{ sp.bio }}</div>
             {% endif %}
@@ -116,6 +100,7 @@ wide: true
     <p class="callout">This list is subject to confirmation and may change.</p>
     <div class="grid grid--speakers">
       {% for sp in workshop.speakers.tentative %}
+        {% assign profile_url = sp.url | default: sp.linkedin | default: sp.scholar %}
         <div class="person">
           {% if sp.photo %}
             <img class="person__photo" src="{{ sp.photo | relative_url }}" alt="Photo of {{ sp.name }}">
@@ -124,8 +109,8 @@ wide: true
           {% endif %}
           <div class="person__body">
             <div class="person__name">
-              {% if sp.url %}
-                <a href="{{ sp.url }}" target="_blank" rel="noopener noreferrer">{{ sp.name }}</a>
+              {% if profile_url %}
+                <a href="{{ profile_url }}" target="_blank" rel="noopener noreferrer">{{ sp.name }}</a>
               {% else %}
                 {{ sp.name }}
               {% endif %}
@@ -136,16 +121,7 @@ wide: true
             {% if sp.affiliation %}
               <div class="person__meta">{{ sp.affiliation }}</div>
             {% endif %}
-            {% if sp.scholar or sp.linkedin %}
-              <div class="person__links" aria-label="Links for {{ sp.name }}">
-                {% if sp.scholar %}
-                  <a class="link-chip" href="{{ sp.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-                {% endif %}
-                {% if sp.linkedin %}
-                  <a class="link-chip" href="{{ sp.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                {% endif %}
-              </div>
-            {% endif %}
+            {% include profile-links.html person=sp %}
           </div>
         </div>
       {% endfor %}

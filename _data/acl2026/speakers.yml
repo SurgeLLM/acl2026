@@ -4,7 +4,7 @@ invited:
     affiliation: "IBM Research, USA"
     url: "https://research.ibm.com/people/lisa-amini"
     scholar: "https://scholar.google.com/citations?user=wstakvUAAAAJ&hl=en"
-    # linkedin: "https://www.linkedin.com/in/lisa-amini-19523313/"
+    linkedin: "https://www.linkedin.com/in/lisa-amini-19523313/"
     photo: "/assets/people/amini-lisa.jpg"
     status: confirmed
     bio: >-
@@ -13,6 +13,7 @@ invited:
     affiliation: "University of Pennsylvania and Oracle AI, USA"
     url: "https://www.cis.upenn.edu/~danroth/"
     scholar: "https://scholar.google.com/citations?user=E-bpPWgAAAAJ&hl=en"
+    linkedin: "https://www.linkedin.com/in/dan-roth-8667361/"
     photo: "/assets/people/roth-dan.jpg"
     status: confirmed
     bio: >-
@@ -41,13 +42,14 @@ invited:
 panelists:
   - name: "Kamalika Das"
     affiliation: "Intuit, USA"
-    url: "https://www.linkedin.com/in/kamalika-das-phd-619bb23"
+    linkedin: "https://www.linkedin.com/in/kamalika-das-phd-619bb23"
     photo: "/assets/people/kamalika-das.jpg"
     status: confirmed
     bio: "AI research leader at Intuit focused on reliable and trustworthy applied AI."
   - name: "Yunyao Li"
     affiliation: "Adobe, USA"
     url: "https://yunyaoli.github.io/"
+    scholar: "https://scholar.google.com/citations?hl=en&user=u5LmeasAAAAJ&view_op=list_works&sortby=pubdate"
     linkedin: "https://www.linkedin.com/in/yunyao-li"
     photo: "/assets/people/yunyao-li.jpg"
     status: confirmed
@@ -64,13 +66,13 @@ panelists:
     affiliation: "IBM Research, USA"
     url: "https://research.ibm.com/people/lisa-amini"
     scholar: "https://scholar.google.com/citations?user=wstakvUAAAAJ&hl=en"
+    linkedin: "https://www.linkedin.com/in/lisa-amini-19523313/"
     photo: "/assets/people/amini-lisa.jpg"
     status: confirmed
     bio: >-
       IBM Distinguished Engineer leading IBM's Data & AI Platforms innovation and IBM Research's <a href="https://www.research.ibm.com/artificial-intelligence/horizons-network/" target="_blank" rel="noopener noreferrer">AI Horizons Network</a>, focused on infusing generative and agentic AI into enterprise data platforms and AI workloads.
   - name: "Sujith Ravi"
     affiliation: "GVP, Oracle AI, USA"
-    url: "https://www.linkedin.com/in/sujithravi/"
     scholar: "https://scholar.google.com/citations?user=sM-dHicAAAAJ&hl=en&oi=ao"
     linkedin: "https://www.linkedin.com/in/sujithravi/"
     photo: "/assets/people/sujith-ravi.png"

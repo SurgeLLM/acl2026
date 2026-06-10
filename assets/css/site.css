@@ -1166,6 +1166,35 @@ kbd {
   background: rgba(var(--brand-rgb), 0.10);
 }
 
+.link-chip--icon {
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.link-chip--icon:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.link-chip--icon svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.link-chip__in {
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
 .paper-summary {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
