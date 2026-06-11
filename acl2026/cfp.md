@@ -19,6 +19,44 @@ SURGeLLM invites submissions on structured understanding, retrieval, generation,
 
 We welcome two submission routes: **Main Track** and **Presentation-only track**.
 
+## Submission Context
+
+<div class="grid grid--3">
+  <div class="card">
+    <div class="card__title">Why submit?</div>
+    <div class="card__body">Structured artifacts are everywhere — but today’s LLM systems still struggle with faithful reasoning, retrieval, and generation over them.</div>
+    <div class="prose">
+      <ul>
+        <li>Get feedback from a cross-community audience (NLP × IR × DB × Visualization).</li>
+        <li>Publish archival papers (proceedings) or present non-archival work (discussion-only).</li>
+        <li>Bring new benchmarks, systems, datasets, and lessons learned — including negative results.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__title">Who should submit?</div>
+    <div class="card__body">We welcome work from students, researchers, and practitioners.</div>
+    <div class="prose">
+      <ul>
+        <li>Table QA, Text-to-SQL, schema linking, structured retrieval, chart/map/diagram understanding.</li>
+        <li>Evaluation, robustness, faithfulness, interpretability, and structure-aware agents.</li>
+        <li>Applications in enterprise data, science, healthcare, finance, and more.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card__title">Workshop format</div>
+    <div class="card__body">A full-day workshop with invited talks and community interaction.</div>
+    <div class="prose">
+      <ul>
+        <li>Invited talks + panel discussion.</li>
+        <li>Contributed oral presentations and poster sessions.</li>
+        <li>Networking breaks, lunch, and awards.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 {% include sections/submission.html %}
 
 ### Main Track

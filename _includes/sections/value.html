@@ -1,7 +1,7 @@
 {% assign cards = workshop.site.home.cards | default: empty %}
 <section class="section" id="overview">
   <div class="section__header">
-    <h2 class="section__title">At a Glance</h2>
+    <h2 class="section__title">{{ workshop.site.home.overview_title | default: "At a Glance" }}</h2>
   </div>
 
   {% if cards and cards.size > 0 %}
@@ -21,9 +21,17 @@
               </ul>
             </div>
           {% endif %}
+          {% if c.link_label and c.link_url %}
+            {% assign card_url = c.link_url | relative_url %}
+            {% if c.link_url contains 'http' %}
+              {% assign card_url = c.link_url %}
+            {% endif %}
+            <div class="card__actions">
+              <a class="button button--small" href="{{ card_url }}"{% if c.link_url contains 'http' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ c.link_label }}</a>
+            </div>
+          {% endif %}
         </div>
       {% endfor %}
     </div>
   {% endif %}
 </section>
-

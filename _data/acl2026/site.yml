@@ -17,29 +17,33 @@ contact_email: "surgellm@googlegroups.com"
 
 home:
   announcement:
-    pill: "Venue Confirmed"
-    message: "Workshop room confirmed: Harbor D; program schedule is live."
-    link_label: "Venue"
-    link_url: "/venue/"
+    pill: "Program & Awards"
+    message: '<strong class="text-highlight">Full schedule</strong> and <strong class="text-highlight">accepted papers</strong> are available; awards will be announced at closing.'
+    link_label: "Program"
+    link_url: "/program/"
+  overview_title: "Workshop Hub"
   cards:
-    - title: "Why submit?"
-      body: "Structured artifacts are everywhere — but today’s LLM systems still struggle with faithful reasoning, retrieval, and generation over them."
+    - title: "Program Live"
+      body: 'SURGeLLM is scheduled for <strong class="text-highlight">July 3, 2026</strong> in <strong class="text-highlight">Room Harbor D</strong> at ACL 2026.'
       items:
-        - "Get feedback from a cross-community audience (NLP × IR × DB × Visualization)."
-        - "Publish archival papers (proceedings) or present non-archival work (discussion-only)."
-        - "Bring new benchmarks, systems, datasets, and lessons learned — including negative results."
-    - title: "Who should submit?"
-      body: "We welcome work from students, researchers, and practitioners."
+        - "Invited talks, oral sessions, poster sessions, networking breaks, and an industry panel."
+        - "All times are local to ACL 2026 in San Diego."
+      link_label: "View Program"
+      link_url: "/program/"
+    - title: "Accepted Papers"
+      body: '<strong class="text-highlight">Accepted papers are posted</strong> with proceedings and non-archival categories.'
       items:
-        - "Table QA, Text-to-SQL, schema linking, structured retrieval, chart/map/diagram understanding."
-        - "Evaluation, robustness, faithfulness, interpretability, and structure-aware agents."
-        - "Applications in enterprise data, science, healthcare, finance, and more."
-    - title: "Workshop format"
-      body: "A full-day workshop with invited talks and community interaction."
+        - '<strong class="text-highlight">Proceedings/Archival</strong> and <strong class="text-highlight">Non-Archival</strong> accepted work.'
+        - '<strong class="text-highlight">Poster</strong> and <strong class="text-highlight">oral-plus-poster</strong> presentation labels are included.'
+      link_label: "Accepted Papers"
+      link_url: "/papers/"
+    - title: "Awards"
+      body: 'Awards for <strong class="text-highlight">Best Paper</strong> and <strong class="text-highlight">two Outstanding Papers</strong> will be announced during Closing Remarks.'
       items:
-        - "Invited talks + panel discussion."
-        - "Contributed oral presentations and poster sessions."
-        - "Networking breaks, lunch, and awards."
+        - '<strong class="text-highlight">Closing Remarks + Awards</strong> are scheduled for 17:10-17:30.'
+        - "Speaker, panelist, and venue details are available for planning."
+      link_label: "View Program"
+      link_url: "/program/"
 
 cta:
   - label: "View Program"
@@ -48,8 +52,11 @@ cta:
   - label: "Accepted Papers"
     url: "/papers/"
     style: secondary
-  - label: "Important Dates"
-    url: "/dates/"
+  - label: "Speakers"
+    url: "/speakers/"
+    style: secondary
+  - label: "Venue"
+    url: "/venue/"
     style: secondary
 
 policies:

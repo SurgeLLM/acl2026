@@ -388,6 +388,11 @@ kbd {
   margin: 8px 0;
 }
 
+.text-highlight {
+  color: var(--text);
+  font-weight: 900;
+}
+
 .card {
   border: 1px solid var(--border);
   border-radius: var(--radius);
