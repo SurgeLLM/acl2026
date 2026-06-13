@@ -20,7 +20,7 @@ items:
     photo: "/assets/people/kaize-ding.jpg"
   - name: "Harsha Kokel"
     affiliation: "IBM Research"
-    title: "Research Scientist, AutoAI"
+    title: "Research Scientist"
     role: "Publicity chair, outreach and community engagement"
     bio: "Works on efficient knowledge-guided learning in structured and relational domains, with interests in planning and reinforcement learning."
     url: "https://harshakokel.com"
