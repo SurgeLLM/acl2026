@@ -16,6 +16,7 @@ sections:
           - "Heng Ji"
       - time: "09:35 – 10:30"
         title: "Invited Talk 2"
+        talk_title: "AI for Data and Data for AI"
         type: "invited"
         speakers:
           - "Dan Roth"
