@@ -10,6 +10,7 @@ sections:
     blocks:
       - time: "08:40 – 09:35"
         title: "Invited Talk 1"
+        talk_title: "Function-Level Structural Knowledge for Creative Physical Intelligence"
         type: "invited"
         speakers:
           - "Heng Ji"
@@ -47,6 +48,7 @@ sections:
         type: "poster"
       - time: "16:10 – 17:10"
         title: "Industry Panel Discussion"
+        topic: "Structured Data in the LLM Era: From Research Benchmarks to Real-World Industry Systems"
         type: "panel"
         speakers:
           - "Kamalika Das"

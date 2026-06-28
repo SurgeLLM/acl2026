@@ -59,9 +59,14 @@ Acceptance notifications have been sent. Accepted papers are listed below in two
       <div class="paper-card__top">
         <h3 class="paper-card__title">{{ paper.title | escape }}</h3>
         {% if paper.mode %}
-        <span class="paper-pill{% if paper.mode contains 'Oral' %} paper-pill--oral{% endif %}">{{ paper.mode }}</span>
+        <div class="paper-card__badges">
+          <span class="paper-pill{% if paper.mode == 'Oral' %} paper-pill--oral{% endif %}">{{ paper.mode }}</span>
+        </div>
         {% endif %}
       </div>
+      {% if paper.presenter %}
+      <p class="paper-card__presenter">Presented by <strong>{{ paper.presenter | escape }}</strong></p>
+      {% endif %}
       {% if paper.abstract %}
       <details class="paper-card__abstract">
         <summary>Abstract</summary>

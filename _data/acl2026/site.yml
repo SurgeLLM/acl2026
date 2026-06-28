@@ -22,28 +22,41 @@ home:
     link_label: "Program"
     link_url: "/program/"
   overview_title: "Workshop Hub"
+  program_preview:
+    - time: "08:40–12:30"
+      title: "Morning Program"
+      body: "Invited talks from Heng Ji, Dan Roth, and Hamid Palangi, plus Poster Session I and Oral Session I."
+    - time: "14:00–16:10"
+      title: "Afternoon Program"
+      body: "Oral Session II, an invited talk from Lisa Amini, and Poster Session II."
+    - time: "16:10–17:30"
+      title: "Panel & Closing"
+      body: "Industry panel discussion followed by Closing Remarks and Awards."
+  awards_announcement:
+    title: "Awards at Closing Remarks"
+    body: "The Best Paper Award and two Best Student Paper Awards will be announced from 17:10–17:30."
   cards:
-    - title: "Program Live"
-      body: 'SURGeLLM is scheduled for <strong class="text-highlight">July 3, 2026</strong> in <strong class="text-highlight">Room Harbor D</strong> at ACL 2026.'
-      items:
-        - "Invited talks, oral sessions, poster sessions, networking breaks, and an industry panel."
-        - "All times are local to ACL 2026 in San Diego."
-      link_label: "View Program"
-      link_url: "/program/"
     - title: "Accepted Papers"
       body: '<strong class="text-highlight">Accepted papers are posted</strong> with proceedings and non-archival categories.'
       items:
         - '<strong class="text-highlight">Proceedings/Archival</strong> and <strong class="text-highlight">Non-Archival</strong> accepted work.'
-        - '<strong class="text-highlight">Poster</strong> and <strong class="text-highlight">oral-plus-poster</strong> presentation labels are included.'
+        - '<strong class="text-highlight">Poster</strong> and <strong class="text-highlight">Oral</strong> presentation labels are included.'
       link_label: "Accepted Papers"
       link_url: "/papers/"
-    - title: "Awards"
-      body: 'Awards for <strong class="text-highlight">Best Paper</strong> and <strong class="text-highlight">two Outstanding Papers</strong> will be announced during Closing Remarks.'
+    - title: "Speakers & Panelists"
+      body: 'Meet the invited speakers and confirmed industry panelists joining SURGeLLM at ACL 2026.'
       items:
-        - '<strong class="text-highlight">Closing Remarks + Awards</strong> are scheduled for 17:10-17:30.'
-        - "Speaker, panelist, and venue details are available for planning."
-      link_label: "View Program"
-      link_url: "/program/"
+        - "Four invited speakers across the morning and afternoon program."
+        - "Five panelists representing industry research and applied AI."
+      link_label: "Meet the Speakers"
+      link_url: "/speakers/"
+    - title: "Venue"
+      body: 'Join us on <strong class="text-highlight">July 3, 2026</strong> in <strong class="text-highlight">Room Harbor D</strong> at ACL 2026.'
+      items:
+        - "Full-day workshop in San Diego, California."
+        - "All schedule times are local to ACL 2026."
+      link_label: "Venue Details"
+      link_url: "/venue/"
 
 cta:
   - label: "View Program"

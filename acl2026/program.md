@@ -64,11 +64,21 @@ description: "SURGeLLM @ ACL 2026 program overview, format, and schedule."
           <div class="schedule-item schedule-item--{{ session_type }}">
             <span class="schedule-time">{{ b.time }}</span>
             <span class="schedule-marker" aria-hidden="true"></span>
-            <div class="schedule-session{% unless b.speakers or b.description %} schedule-session--single{% endunless %}">
+            {% assign session_layout_class = ' schedule-session--single' %}
+            {% if b.speakers or b.description %}
+              {% assign session_layout_class = '' %}
+            {% endif %}
+            {% if b.talk_title %}
+              {% assign session_layout_class = ' schedule-session--with-talk' %}
+            {% endif %}
+            <div class="schedule-session{{ session_layout_class }}">
               <div class="schedule-session__main">
                 <h3>{{ b.title }}</h3>
                 {% if b.description %}
                   <p>{{ b.description }}</p>
+                {% endif %}
+                {% if b.topic %}
+                  <p class="schedule-session__topic"><strong>Panel Topic:</strong> {{ b.topic }}</p>
                 {% endif %}
               </div>
               {% if b.speakers %}
@@ -117,6 +127,12 @@ description: "SURGeLLM @ ACL 2026 program overview, format, and schedule."
                   {% endfor %}
                 </div>
               {% endif %}
+              {% if b.talk_title %}
+                <div class="schedule-session__talk">
+                  <span class="schedule-session__talk-label">Talk title</span>
+                  <strong class="schedule-session__talk-title">{{ b.talk_title }}</strong>
+                </div>
+              {% endif %}
             </div>
           </div>
         {% endfor %}
@@ -151,4 +167,4 @@ description: "SURGeLLM @ ACL 2026 program overview, format, and schedule."
 - Contributed oral sessions selected from accepted papers
 - Poster sessions paired with coffee breaks and networking
 - Industry panel discussion and community Q&A
-- Awards for Best Paper and Outstanding Papers
+- A Best Paper Award and two Best Student Paper Awards

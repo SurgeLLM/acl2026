@@ -1,0 +1,26 @@
+{% assign preview_items = workshop.site.home.program_preview | default: empty %}
+{% assign awards = workshop.site.home.awards_announcement %}
+<section class="section" id="program-preview">
+  <div class="section__header section__header--split">
+    <h2 class="section__title">Program Sneak Peek</h2>
+    <a class="button button--small" href="{{ '/program/' | relative_url }}">View Full Program</a>
+  </div>
+
+  {% if preview_items and preview_items.size > 0 %}
+    <div class="grid grid--3">
+      {% for item in preview_items %}
+        <div class="card">
+          <div><span class="badge">{{ item.time }}</span></div>
+          <div class="card__title">{{ item.title }}</div>
+          <div class="card__body">{{ item.body }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if awards %}
+    <div class="callout">
+      <strong>{{ awards.title }}</strong>: {{ awards.body }}
+    </div>
+  {% endif %}
+</section>

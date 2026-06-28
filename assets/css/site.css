@@ -824,6 +824,42 @@ kbd {
   grid-template-columns: 1fr;
 }
 
+.schedule-session--with-talk {
+  grid-template-columns: minmax(150px, 0.28fr) minmax(220px, 0.5fr) minmax(260px, 0.72fr);
+  grid-template-areas: "main people talk";
+}
+
+.schedule-session--with-talk .schedule-session__main {
+  grid-area: main;
+}
+
+.schedule-session--with-talk .schedule-people {
+  grid-area: people;
+}
+
+.schedule-session__talk {
+  grid-area: talk;
+  min-width: 0;
+  padding-left: 16px;
+  border-left: 1px solid rgba(15, 23, 42, 0.12);
+}
+
+.schedule-session__talk-label {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--brand);
+  font-size: 11px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.schedule-session__talk-title {
+  display: block;
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.45;
+}
+
 .schedule-session h3 {
   margin: 0;
   color: var(--text);
@@ -1277,6 +1313,14 @@ kbd {
   line-height: 1.35;
 }
 
+.paper-card__badges {
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 7px;
+}
+
 .paper-pill {
   flex: 0 0 auto;
   border: 1px solid rgba(var(--brand-rgb), 0.20);
@@ -1293,6 +1337,12 @@ kbd {
   border-color: rgba(var(--brand2-rgb), 0.34);
   color: #92400e;
   background: rgba(var(--brand2-rgb), 0.12);
+}
+
+.paper-card__presenter {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 14px;
 }
 
 .paper-card__abstract {
@@ -1655,6 +1705,20 @@ kbd {
     grid-template-columns: 1fr;
   }
 
+  .schedule-session--with-talk {
+    grid-template-areas:
+      "main"
+      "talk"
+      "people";
+  }
+
+  .schedule-session__talk {
+    padding-top: 10px;
+    padding-left: 0;
+    border-top: 1px solid rgba(15, 23, 42, 0.10);
+    border-left: 0;
+  }
+
   .grid--organizers {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1734,8 +1798,13 @@ kbd {
     flex-direction: column;
   }
 
+  .paper-card__badges,
   .paper-pill {
     align-self: flex-start;
+  }
+
+  .paper-card__badges {
+    justify-content: flex-start;
   }
 
   .section__header--split {

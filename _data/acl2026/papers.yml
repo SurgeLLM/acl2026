@@ -1,7 +1,7 @@
 # Accepted papers for SURGeLLM @ ACL 2026. Generated from SURGeLLM Final.xlsx.
 publish: true
-updated: "2026-05-23"
-notice: "Author lists and final anthology links will be added as publication metadata is finalized."
+updated: "2026-06-27"
+notice: "Presenter names are shown for oral papers; complete author lists and final anthology links will be added as publication metadata is finalized."
 
 categories:
   - id: "proceedings"
@@ -14,18 +14,12 @@ categories:
 items:
   - id: "direct-44"
     category: "proceedings"
-    mode: "Oral + Poster"
+    mode: "Oral"
     title: "TabBridge: Bridging Structure and Context for Accurate Table Reasoning"
+    presenter: "Youngsik Yun"
     abstract: >-
       Table reasoning remains challenging for Large Language Models (LLMs) as it requires integrating structured tabular information with natural language questions. Previous SQL-based approaches rely on surface-level alignment between question keywords and column headers, often generating queries with spurious or missing column mappings. We introduce TabBridge, a framework that incorporates both structural and contextual information for accurate table reasoning. TabBridge first generates a unified textual representation called Table Specification (TabSpec), preserving the structural information through row and column analysis. In order to ensure accuracy and consistency, we also employ a reconstruction-based evaluation mechanism to verify and refine the generated TabSpec. TabSpec is subsequently used to generate SQL aligned with the contextual intent of the question, enabling accurate interpretation of column semantics that are often overlooked by previous approaches. Across three public benchmarks, TabBridge shows consistent improvements over previous SQL-based methods, achieving 73.94\% accuracy on WikiTableQuestions (+5.3 pp over the previous state of the art). TabBridge also demonstrates robust performance across diverse LLM backbones, confirming its generalizability across model architectures. Our code is available at https://github.com/raylee0519/TabBridge.
     forum: "https://openreview.net/forum?id=hv4eM1cWq0"
-  - id: "direct-74"
-    category: "proceedings"
-    mode: "Oral + Poster"
-    title: "Multimodal Narrative Synthesis in Complex Documents via Omni-Parser Transformer"
-    abstract: >-
-      Traditional vision-language models treat documents as fragmented collections of image-text pairs, losing the connective tissue that defines professional media. We propose the Omni-Parser Transformer (OPT), a paradigm shift that moves from cross-modal matching to Document-Scale Narrative Reasoning. At its core, OPT leverages the high-dimensional latent space of Llama 3 to act as a multimodal reasoning hub, capable of interpreting how a specific visual asset supports, contradicts, or expands upon non-adjacent textual segments. By introducing a Neural Layout Graph, OPT preserves the spatial intent of document creators. Experimental benchmarks on our newly curated Wiki-Global Structure dataset reveal that OPT doesn't just "find" relevant text—it understands the functional role of images within a long-form argument, achieving a 15\% improvement in complex zero-shot document reasoning over traditional VLP architectures.
-    forum: "https://openreview.net/forum?id=Ms2Jwb3kTh"
   - id: "direct-5"
     category: "proceedings"
     mode: "Poster"
@@ -35,14 +29,15 @@ items:
     forum: "https://openreview.net/forum?id=mGU3e92vX8"
   - id: "direct-93"
     category: "proceedings"
-    mode: "Oral + Poster"
+    mode: "Oral"
     title: "More Than Efficiency: Embedding Compression Improves Domain Adaptation in Dense Retrieval"
+    presenter: "Chunsheng Zuo"
     abstract: >-
       Dense retrievers powered by pretrained embeddings are widely used for document retrieval but struggle in specialized domains due to the mismatches between the training and target domain distributions. Domain adaptation typically requires costly annotation and retraining of query-document pairs. In this work, we revisit an overlooked alternative: applying PCA to domain embeddings to derive lower-dimensional representations that preserve domain-relevant features while discarding non-discriminative components. Though traditionally used for efficiency, we demonstrate that this simple embedding compression can effectively improve retrieval performance. Evaluated across 9 retrievers and 14 MTEB datasets, PCA applied solely to query embeddings improves NDCG@10 in 75.4\% of model-dataset pairs, offering a simple and lightweight method for domain adaptation.
     forum: "https://openreview.net/forum?id=GVXE3izDaV"
   - id: "direct-73"
     category: "proceedings"
-    mode: "Oral + Poster"
+    mode: "Poster"
     title: "TabFaith: Benchmarking and Improving Structural Faithfulness in LLM Table Summarization"
     abstract: >-
       When large language models (LLMs) summarize tabular data, they produce fluent but systematically unfaithful text—hallucinating numerical values, misattributing entities to rows or columns, fabricating comparative rankings, and conflating temporal references. Existing faithfulness metrics (BLEU, PARENT, BERTScore) are poorly correlated with human judgments of structural faithfulness (r ≤0.60) because they are agnostic to the table's schema and cell structure. We introduce TABFAITH, a benchmark of 2,400 (table, summary, error annotation) triples across five structural error types, built from ToTTo and a new enterprise table summarization dataset (TabSum-Ent) covering financial reports, clinical notes, and operational dashboards. We further propose STAF (Structural Table-Aware Faithfulness), a reference-free metric that decomposes faithfulness verification into cell-level claim alignment using natural language inference over table cells. STAF achieves r = 0.94 with human faithfulness judgments—a +0.34 improvement over PARENT (r = 0.60) and +0.70 over BLEU (r = 0.24). Guided by STAF's fine-grained signal, we design CAVE (Cell-Anchored Verification and Editing), a training-free post-processing method that identifies unfaithful claims, traces them to specific table cells, and re-generates the offending spans. CAVE improves STAF scores by +0.14 on average across five LLMs on both ToTTo and TabSum-Ent, with the largest gains for numerical errors (+0.17)—the dominant error type for smaller models.
@@ -56,15 +51,16 @@ items:
     forum: "https://openreview.net/forum?id=1APfppDeVZ"
   - id: "direct-22"
     category: "proceedings"
-    mode: "Oral + Poster"
+    mode: "Poster"
     title: "RSAT: Structured Attribution Makes Small Language Models Faithful Table Reasoners"
     abstract: >-
       When a language model answers a table question, users have no way to verify which cells informed which reasoning steps. We introduce RSAT, a method that trains small language models (SLMs, 1–8B) to produce step-by-step reasoning with cell-level citations grounded in table evidence. Phase 1 (SFT) teaches a structured JSON output format from verified reasoning traces. Phase 2 (GRPO) optimizes a composite reward centered on NLI-based faithfulness, alongside citation validity and parsimony. Across six models from two families—Qwen2.5 (1.5B/3B/7B) and Llama3 (1B/3B/8B)—RSAT improves faithfulness 3.7$\times$ over SFT alone (0.224$\rightarrow$0.826), with near-perfect citation validity (0.992). Post-hoc attribution collapses below 13\% format success, confirming that attribution must be integrated into reasoning, not retrofitted. Ablations show the faithfulness reward is essential: removing it drops faithfulness from 0.97 to 0.03.
     forum: "https://openreview.net/forum?id=eB7agAZFb4"
   - id: "direct-38"
     category: "proceedings"
-    mode: "Oral + Poster"
+    mode: "Oral"
     title: "DSMentor: Curriculum-Guided Inference with Online Memory for Data-Science LLM Agents"
+    presenter: "Henghui Zhu"
     abstract: >-
       Large language model (LLM) agents have shown strong capabilities in generating code to solve complex data science problems, yet they often overlook the impact of task order during inference. We present DSMentor, an inference-time optimization framework that applies curriculum learning—progressing from easier to harder tasks—to enhance LLM performance on challenging data science tasks. Guided by a mentor and supported by a growing long-term memory, DSMentor organizes problems by difficulty, retains prior experiences, and leverages them to guide subsequent reasoning. Extensive experiments on DSEval and QRData benchmarks show that DSMentor with Claude-3.5-Sonnet improves pass rates by up to 5.2% over baseline agents and achieves an 8.8% gain over GPT-4 with Program-of-Thoughts prompting. These results highlight the effectiveness of curriculum-based inference strategies in advancing LLM agents.
     forum: "https://openreview.net/forum?id=el5moWSoz0"
@@ -77,8 +73,9 @@ items:
     forum: "https://openreview.net/forum?id=HgiHThCvfQ"
   - id: "direct-28"
     category: "non_archival"
-    mode: "Poster"
+    mode: "Oral"
     title: "Functional Entropy: Predicting Functional Correctness in LLM-Generated Code with Uncertainty Quantification"
+    presenter: "Mohit Singh Chauhan"
     abstract: >-
       Large language models have shown impressive capabilities in code generation, yet they often produce functionally incorrect code. Uncertainty quantification (UQ) methods have emerged as a promising approach for detecting hallucinations in natural language generation, but their effectiveness for code generation tasks remains underexplored. We systematically evaluate how UQ techniques transfer to code generation across three programming languages, five LLMs, and over 1,700 problems. We find that some token-probability-based methods generalize effectively without modification, while sampling-based methods relying on natural language inference (NLI) fail because NLI models cannot distinguish functionally different code, causing most responses to collapse into a single semantic cluster. To address this, we introduce \emph{functional equivalence methods}, a family of code-specific methods that replace NLI-based semantic equivalence with an LLM-based functional equivalence assessment, including functional entropy, a code-specific analog of semantic entropy. Functional equivalence methods achieve top AUROC in 11 out of 15 model-benchmark combinations and the best calibration across most settings, consistently outperforming both NLI-based counterparts and all other methods evaluated.
     forum: "https://openreview.net/forum?id=J7lDMgVAyo"
@@ -98,8 +95,9 @@ items:
     forum: "https://openreview.net/forum?id=qpko2Ra5e5"
   - id: "direct-29"
     category: "proceedings"
-    mode: "Poster"
+    mode: "Oral"
     title: "StructSurvey: Structured Agentic Retrieval for Automated Survey Paper Generation"
+    presenter: "Enrico Santus"
     abstract: >-
       The rapid growth of scientific publications makes it increasingly difficult to track and synthesize research progress. While Large Language Models (LLMs) can support automated survey generation, existing methods retrieve unstructured data and require models to infer conceptual, methodological, and taxonomic relations from raw text at generation time. We introduce STRUCTSURVEY, a hierarchical multiagent framework that shifts structural reasoning from generation to retrieval by dynamically constructing graph-based representations of entities, relations, and topical taxonomies. We evaluate STRUCTSURVEY on a new referencegrounded benchmark of ACL survey papers for reproducible long-form scientific summarization. Compared with embedding-only retrieval baselines, STRUCTSURVEY improves ROUGE1 recall by +2.9 and ROUGE-2 recall by +1.0 on average, without reducing precision. It also improves LLM-as-a-Judge ratings for logical structure, depth, and synthesis, showing that explicit structural retrieval yields surveys closer to human-written organization and reasoning.
     forum: "https://openreview.net/forum?id=JGqAoIx1fo"
@@ -112,8 +110,9 @@ items:
     forum: "https://openreview.net/forum?id=9WJUziw6PR"
   - id: "direct-68"
     category: "proceedings"
-    mode: "Poster"
+    mode: "Oral"
     title: "Mixed-Policy GRPO for Text-to-SQL with Off-Policy Data Generation"
+    presenter: "Marko Sterbentz"
     abstract: >-
       Recent advances in text-to-SQL have shown that methods such as Group Relative Policy Optimization (GRPO) can substantially improve reasoning performance, but these approaches remain inherently on-policy, limiting their ability to incorporate novel reasoning patterns. In this work, we address this limitation by leveraging existing datasets to generate high-quality off-policy rollouts, enabling mixed-policy training that exposes models to diverse and informative reasoning trajectories. We present the first application of mixed-policy GRPO to the text-to-SQL domain and introduce a systematic study of off-policy data generation strategies for this setting, including a novel method, Iterative Error Correction (IEC), which iteratively refines model outputs through targeted feedback. Our experiments show that mixed-policy GRPO outperforms both base models and on-policy GRPO, yielding average improvements of +4.7% over base models and +4.1% over on-policy GRPO across the Spider and BIRD benchmarks. Gains are particularly strong on BIRD, reaching up to +7.3% over base models and +4.5% over on-policy GRPO.
     forum: "https://openreview.net/forum?id=g7aGCopMZ1"
