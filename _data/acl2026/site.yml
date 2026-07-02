@@ -26,10 +26,10 @@ home:
     - time: "08:40–12:30"
       title: "Morning Program"
       body: "Invited talks from Preslav Nakov, Dan Roth, and Hamid Palangi, plus Poster Session I and Oral Session I."
-    - time: "14:00–16:10"
+    - time: "14:00–16:00"
       title: "Afternoon Program"
       body: "Oral Session II, an invited talk from Lisa Amini, and Poster Session II."
-    - time: "16:10–17:30"
+    - time: "16:00–17:30"
       title: "Panel & Closing"
       body: "Industry panel discussion, an invited talk from Heng Ji, and Closing Remarks and Awards."
   awards_announcement:

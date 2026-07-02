@@ -45,10 +45,10 @@ sections:
         type: "invited"
         speakers:
           - "Lisa Amini"
-      - time: "15:30 – 16:10"
+      - time: "15:30 – 16:00"
         title: "Coffee Break + Networking + Poster Session II"
         type: "poster"
-      - time: "16:10 – 16:45"
+      - time: "16:00 – 16:45"
         title: "Industry Panel Discussion"
         topic: "Structured Data in the LLM Era: From Research Benchmarks to Real-World Industry Systems"
         type: "panel"
