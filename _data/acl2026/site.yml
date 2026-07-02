@@ -25,16 +25,16 @@ home:
   program_preview:
     - time: "08:40–12:30"
       title: "Morning Program"
-      body: "Invited talks from Heng Ji, Dan Roth, and Hamid Palangi, plus Poster Session I and Oral Session I."
+      body: "Invited talks from Preslav Nakov, Dan Roth, and Hamid Palangi, plus Poster Session I and Oral Session I."
     - time: "14:00–16:10"
       title: "Afternoon Program"
       body: "Oral Session II, an invited talk from Lisa Amini, and Poster Session II."
     - time: "16:10–17:30"
       title: "Panel & Closing"
-      body: "Industry panel discussion followed by Closing Remarks and Awards."
+      body: "Industry panel discussion, an invited talk from Heng Ji, and Closing Remarks and Awards."
   awards_announcement:
     title: "Awards at Closing Remarks"
-    body: "The Best Paper Award and two Best Student Paper Awards will be announced from 17:10–17:30."
+    body: "The Best Paper Award and two Best Student Paper Awards will be announced from 17:15–17:30."
   cards:
     - title: "Accepted Papers"
       body: '<strong class="text-highlight">Accepted papers are posted</strong> with proceedings and non-archival categories.'
@@ -46,7 +46,7 @@ home:
     - title: "Speakers & Panelists"
       body: 'Meet the invited speakers and confirmed industry panelists joining SURGeLLM at ACL 2026.'
       items:
-        - "Four invited speakers across the morning and afternoon program."
+        - "Five invited speakers across the morning and afternoon program."
         - "Five panelists representing industry research and applied AI."
       link_label: "Meet the Speakers"
       link_url: "/speakers/"

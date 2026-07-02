@@ -1,5 +1,14 @@
 publish: true
 invited:
+  - name: "Preslav Nakov"
+    affiliation: "Mohamed bin Zayed University of Artificial Intelligence, UAE"
+    url: "https://mbzuai.ac.ae/study/faculty/preslav-nakov/"
+    scholar: "https://scholar.google.com/citations?user=DfXsKZ4AAAAJ"
+    linkedin: "https://www.linkedin.com/in/preslavnakov/"
+    photo: "/assets/people/preslav-nakov.jpg"
+    status: confirmed
+    bio: >-
+      Preslav Nakov is Professor and Department Chair for NLP at the Mohamed bin Zayed University of Artificial Intelligence. He led the teams at MBZUAI's Institute for Foundation Models that developed Jais, the world's best open-source Arabic-centric LLM, Nanda, the world's best open-weights Hindi model, and Sherkala, the world's best open-weights Kazakh model. Previously, he was Principal Scientist at the Qatar Computing Research Institute, HBKU, where he led the Tanbih mega-project, developed in collaboration with MIT, which aims to limit the impact of "fake news", propaganda and media bias by making users aware of what they are reading, thus promoting media literacy and critical thinking. He received his PhD degree in Computer Science from the University of California at Berkeley, supported by a Fulbright grant. He is Chair of the European Chapter of the Association for Computational Linguistics (EACL), Secretary of ACL SIGSLAV, and Secretary of the Truth and Trust Online board of trustees. Formerly, he was PC chair of ACL 2022, and President of ACL SIGLEX. He is also member of the editorial board of several journals including Computational Linguistics, TACL, ACM TOIS, IEEE TASL, IEEE TAC, CS&L, NLE, AI Communications, and Frontiers in AI. He authored a Morgan & Claypool book on Semantic Relations between Nominals, two books on computer algorithms, and 250+ research papers. He received a Best Paper Award at ACM WebSci'2022, a Best Long Paper Award at CIKM'2020, a Best Resource Paper Award at EACL'2024, a Best Demo Paper Award (Honorable Mention) at ACL'2020, a Best Task Paper Award (Honorable Mention) at SemEval'2020, a Best Poster Award at SocInfo'2019, and the Young Researcher Award at RANLP’2011. He was also the first to receive the Bulgarian President's John Atanasoff award, named after the inventor of the first automatic electronic digital computer. His research was featured by over 100 news outlets, including Reuters, Forbes, Financial Times, CNN, Boston Globe, Aljazeera, DefenseOne, Business Insider, MIT Technology Review, Science Daily, Popular Science, Fast Company, The Register, WIRED, and Engadget, among others.
   - name: "Lisa Amini"
     affiliation: "IBM Research, USA"
     url: "https://research.ibm.com/people/lisa-amini"
@@ -46,7 +55,8 @@ panelists:
     linkedin: "https://www.linkedin.com/in/kamalika-das-phd-619bb23"
     photo: "/assets/people/kamalika-das.jpg"
     status: confirmed
-    bio: "AI research leader at Intuit focused on reliable and trustworthy applied AI."
+    bio: >-
+      Kamalika Das is a Principal Research Scientist and Head of AI Research at Intuit, where she focuses on LLM reasoning and reliability for accurate, trustworthy fintech applications and leads the University Collaboration Program. She has published 70+ papers in venues including KDD, NeurIPS, AAAI, and AISTATS. Previously, her climate machine learning and anomaly detection research at NASA Ames earned her the NASA Exceptional Public Service Medal, and she serves on the advisory board of the Lamarr Institute for Machine Learning and Artificial Intelligence.
   - name: "Yunyao Li"
     affiliation: "Adobe, USA"
     url: "https://yunyaoli.github.io/"
@@ -54,7 +64,8 @@ panelists:
     linkedin: "https://www.linkedin.com/in/yunyao-li"
     photo: "/assets/people/yunyao-li.jpg"
     status: confirmed
-    bio: "Director of Machine Learning at Adobe Experience Platform; works across NLP, databases, and human-computer interaction."
+    bio: >-
+      Yunyao Li is Director of Machine Learning at Adobe Experience Platform, where she leads strategic Generative AI and knowledge graph initiatives for enterprise personalization, audience understanding, and customer journeys at scale. Previously, she led machine learning for Apple Knowledge Platform and held senior research leadership roles at IBM Research - Almaden. Her work spans scalable NLP, human-computer cooperation, declarative text understanding, enterprise search, and database usability; she has published 100+ papers and holds 36 patents.
   - name: "Frederic Sala"
     affiliation: "Snorkel AI, USA"
     url: "https://pages.cs.wisc.edu/~fredsala/"
