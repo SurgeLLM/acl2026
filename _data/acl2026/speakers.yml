@@ -47,7 +47,8 @@ invited:
     scholar: "https://scholar.google.com/citations?user=B1lAghgAAAAJ&hl=en"
     photo: "/assets/people/palangi-hamid.jpg"
     status: confirmed
-    bio: "Staff Research Scientist at Google; Affiliate Associate Professor at UW."
+    bio: >-
+      Dr. Hamid Palangi is a Staff Research Scientist at Google, Affiliate Associate Professor at the University of Washington and an advisor for Koidra. His work is centered around building more reliable, useful and controllable AI systems, with a specific focus on enabling foundation models and multi-agent workflows to advance AI-driven discovery and tackle complex long-horizon tasks.
 
 panelists:
   - name: "Kamalika Das"

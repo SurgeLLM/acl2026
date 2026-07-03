@@ -28,6 +28,7 @@ sections:
         type: "oral"
       - time: "11:45 – 12:30"
         title: "Invited Talk 3"
+        talk_title: "Mind the Gaps in AI-Driven Discovery"
         type: "invited"
         speakers:
           - "Hamid Palangi"
