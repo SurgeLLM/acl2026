@@ -17,9 +17,9 @@ contact_email: "surgellm@googlegroups.com"
 
 home:
   announcement:
-    pill: "Program & Awards"
-    message: '<strong class="text-highlight">Full schedule</strong> and <strong class="text-highlight">accepted papers</strong> are available; awards will be announced at closing.'
-    link_label: "Program"
+    pill: "Talks & Awards"
+    message: '<strong class="text-highlight">Talk videos</strong> and <strong class="text-highlight">awards</strong> are now available; the full schedule and accepted papers are online.'
+    link_label: "Watch Talks"
     link_url: "/program/"
   overview_title: "Workshop Hub"
   program_preview:
@@ -33,8 +33,12 @@ home:
       title: "Panel & Closing"
       body: "Industry panel discussion followed by Closing Remarks and Awards."
   awards_announcement:
-    title: "Awards at Closing Remarks"
-    body: "The Best Paper Award and two Best Student Paper Awards will be announced from 17:10–17:30."
+    title: "Awards Announced"
+    body: "The workshop recognized the following papers."
+    items:
+      - '<strong>Best Paper Award</strong>: <a href="https://aclanthology.org/2026.surgellm-1.14/" target="_blank" rel="noopener noreferrer"><em>TabBridge: Bridging Structure and Context for Accurate Table Reasoning</em></a> by Jeongwoo Lee, Eunsoo Lee, and Jihie Kim.'
+      - '<strong>Best Student Paper Award</strong>: <a href="https://aclanthology.org/2026.surgellm-1.24/" target="_blank" rel="noopener noreferrer"><em>More Than Efficiency: Embedding Compression Improves Domain Adaptation in Dense Retrieval</em></a> by Chunsheng Zuo and Daniel Khashabi.'
+      - '<strong>Best Student Paper Award</strong>: <a href="https://aclanthology.org/2026.surgellm-1.12/" target="_blank" rel="noopener noreferrer"><em>DSMentor: Curriculum-Guided Inference with Online Memory for Data-Science LLM Agents</em></a> by He Wang, Alexander Hanbo Li, Yiqun Hu, Sheng Zhang, Hideo Kobayashi, Jiani Zhang, Henghui Zhu, Chung-Wei Hang, and Patrick Ng.'
   cards:
     - title: "Accepted Papers"
       body: '<strong class="text-highlight">Accepted papers are posted</strong> with proceedings and non-archival categories.'
@@ -68,8 +72,11 @@ cta:
   - label: "Speakers"
     url: "/speakers/"
     style: secondary
-  - label: "Venue"
-    url: "/venue/"
+  - label: "Talks"
+    url: "/program/"
+    style: secondary
+  - label: "Awards"
+    url: "/#awards-announcement"
     style: secondary
 
 policies:

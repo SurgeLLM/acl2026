@@ -1066,6 +1066,15 @@ kbd {
   color: var(--muted);
 }
 
+.callout__list {
+  margin: 10px 0 0;
+  padding-left: 20px;
+}
+
+.callout__list li + li {
+  margin-top: 8px;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -1365,6 +1374,12 @@ kbd {
   border-color: rgba(var(--brand2-rgb), 0.34);
   color: #92400e;
   background: rgba(var(--brand2-rgb), 0.12);
+}
+
+.paper-pill--award {
+  border-color: rgba(22, 101, 52, 0.30);
+  color: #166534;
+  background: rgba(22, 101, 52, 0.10);
 }
 
 .paper-card__presenter {

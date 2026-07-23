@@ -14,7 +14,7 @@ description: "Accepted papers for SURGeLLM @ ACL 2026."
 
 ## Papers
 
-Acceptance notifications have been sent. Accepted papers are listed below in two categories: **Proceedings/Archival** and **Non-Archival**. Presentation format is shown on each paper as a pill.
+Acceptance notifications have been sent. Accepted papers are listed below in two categories: **Proceedings/Archival** and **Non-Archival**. Presentation format and award designations are shown as pills where applicable.
 
 <div class="callout">
   Authors can see decision details in <a href="{{ workshop.submission.tracks[0].links[0].url }}" target="_blank" rel="noopener noreferrer">OpenReview</a>.
@@ -58,9 +58,14 @@ Acceptance notifications have been sent. Accepted papers are listed below in two
     <article class="paper-card">
       <div class="paper-card__top">
         <h3 class="paper-card__title">{{ paper.title | escape }}</h3>
-        {% if paper.mode %}
+        {% if paper.mode or paper.award %}
         <div class="paper-card__badges">
+          {% if paper.award %}
+          <span class="paper-pill paper-pill--award">{{ paper.award }}</span>
+          {% endif %}
+          {% if paper.mode %}
           <span class="paper-pill{% if paper.mode == 'Oral' %} paper-pill--oral{% endif %}">{{ paper.mode }}</span>
+          {% endif %}
         </div>
         {% endif %}
       </div>
@@ -73,9 +78,13 @@ Acceptance notifications have been sent. Accepted papers are listed below in two
         <p>{{ paper.abstract | escape }}</p>
       </details>
       {% endif %}
-      {% if paper.forum %}
+      {% if paper.proceedings_url or paper.forum %}
       <div class="paper-card__links">
+        {% if paper.proceedings_url %}
+        <a class="link-chip" href="{{ paper.proceedings_url }}" target="_blank" rel="noopener noreferrer">ACL Anthology</a>
+        {% else %}
         <a class="link-chip" href="{{ paper.forum }}" target="_blank" rel="noopener noreferrer">OpenReview</a>
+        {% endif %}
       </div>
       {% endif %}
     </article>
