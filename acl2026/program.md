@@ -24,6 +24,12 @@ description: "SURGeLLM @ ACL 2026 program overview, format, and schedule."
       <a class="link-chip" href="{{ '/papers/' | relative_url }}">Accepted Papers</a>
       <a class="link-chip" href="{{ '/venue/' | relative_url }}">Venue</a>
       <a class="link-chip" href="{{ '/faq/' | relative_url }}">FAQ</a>
+      {% if workshop.program.video_playlist_url %}
+        <a class="link-chip link-chip--video" href="{{ workshop.program.video_playlist_url }}" target="_blank" rel="noopener noreferrer" title="Open the SURGeLLM video playlist">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5l10 7-10 7V5z"></path></svg>
+          <span>Video playlist</span>
+        </a>
+      {% endif %}
     </div>
   </div>
 </section>
@@ -80,6 +86,14 @@ description: "SURGeLLM @ ACL 2026 program overview, format, and schedule."
                 {% if b.topic %}
                   <p class="schedule-session__topic"><strong>Panel Topic:</strong> {{ b.topic }}</p>
                 {% endif %}
+                {% unless b.talk_title %}
+                  {% if b.video_url %}
+                    <a class="link-chip link-chip--video schedule-session__video-link" href="{{ b.video_url }}" target="_blank" rel="noopener noreferrer" title="{{ b.video_label | default: 'Watch video' }}">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5l10 7-10 7V5z"></path></svg>
+                      <span>{{ b.video_label | default: "Watch video" }}</span>
+                    </a>
+                  {% endif %}
+                {% endunless %}
               </div>
               {% if b.speakers %}
                 <div class="schedule-people{% if b.speakers.size > 1 %} schedule-people--panel{% endif %}">
@@ -131,6 +145,18 @@ description: "SURGeLLM @ ACL 2026 program overview, format, and schedule."
                 <div class="schedule-session__talk">
                   <span class="schedule-session__talk-label">Talk title</span>
                   <strong class="schedule-session__talk-title">{{ b.talk_title }}</strong>
+                  {% if b.video_url %}
+                    <a class="link-chip link-chip--video schedule-session__video-link" href="{{ b.video_url }}" target="_blank" rel="noopener noreferrer" title="{{ b.video_label | default: 'Watch video' }}">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5l10 7-10 7V5z"></path></svg>
+                      <span>{{ b.video_label | default: "Watch video" }}</span>
+                    </a>
+                  {% endif %}
+                  {% if b.slides_url %}
+                    <a class="link-chip link-chip--resource schedule-session__video-link" href="{{ b.slides_url | relative_url }}" target="_blank" rel="noopener noreferrer" title="{{ b.slides_label | default: 'Talk slides' }}">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.5h8l4 4V20.5H6z"></path><path d="M14 3.5v4h4M9 12h6M9 16h6"></path></svg>
+                      <span>{{ b.slides_label | default: "Talk slides" }}</span>
+                    </a>
+                  {% endif %}
                 </div>
               {% endif %}
             </div>

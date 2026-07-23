@@ -1207,6 +1207,34 @@ kbd {
   background: rgba(var(--brand-rgb), 0.10);
 }
 
+.link-chip--video {
+  gap: 6px;
+}
+
+.link-chip--video svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
+
+.link-chip--resource {
+  gap: 6px;
+}
+
+.link-chip--resource svg {
+  width: 14px;
+  height: 14px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.schedule-session__video-link {
+  margin-top: 10px;
+}
+
 .link-chip--icon {
   width: 34px;
   height: 34px;

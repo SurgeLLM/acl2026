@@ -1,5 +1,6 @@
 notes:
   - "All times are local to ACL 2026 in San Diego and subject to minor adjustments."
+video_playlist_url: "https://www.youtube.com/playlist?list=PLAxLNwFowLgo"
 sections:
   - title: "Opening"
     blocks:
@@ -11,12 +12,16 @@ sections:
       - time: "08:40 – 09:35"
         title: "Invited Talk 1"
         talk_title: "Trustworthy LLMs over Structured Evidence: Verifiable Reasoning, Grounded Evidence, and Human Oversight"
+        video_url: "https://www.youtube.com/watch?v=t1knc7VXkOo"
+        video_label: "Watch talk"
         type: "invited"
         speakers:
           - "Preslav Nakov"
       - time: "09:35 – 10:30"
         title: "Invited Talk 2"
         talk_title: "AI for Data and Data for AI"
+        video_url: "https://www.youtube.com/watch?v=4yw9Xk6f-P0"
+        video_label: "Watch talk"
         type: "invited"
         speakers:
           - "Dan Roth"
@@ -29,6 +34,8 @@ sections:
       - time: "11:45 – 12:30"
         title: "Invited Talk 3"
         talk_title: "Mind the Gaps in AI-Driven Discovery"
+        video_url: "https://www.youtube.com/watch?v=0cRthYnPnxI"
+        video_label: "Watch talk"
         type: "invited"
         speakers:
           - "Hamid Palangi"
@@ -43,6 +50,10 @@ sections:
       - time: "14:35 – 15:30"
         title: "Invited Talk 4"
         talk_title: "Can AI Autonomously Build, Operate, and Use the Entire Data Stack?"
+        video_url: "https://www.youtube.com/watch?v=7q6ChHP18Sc"
+        video_label: "Watch talk"
+        slides_url: "/assets/talks/lisa-amini-data-stack.pdf"
+        slides_label: "Talk slides"
         type: "invited"
         speakers:
           - "Lisa Amini"
@@ -52,6 +63,8 @@ sections:
       - time: "16:10 – 17:10"
         title: "Industry Panel Discussion"
         topic: "Structured Data in the LLM Era: From Research Benchmarks to Real-World Industry Systems"
+        video_url: "https://www.youtube.com/watch?v=iH1G95ZQuSU"
+        video_label: "Watch panel"
         type: "panel"
         speakers:
           - "Kamalika Das"
